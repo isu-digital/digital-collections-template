@@ -5,6 +5,7 @@
 layout: item/item-page-base
 # gallery: true
 ---
+{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
 
 <div class="card mb-4 text-center">
 
@@ -12,7 +13,7 @@ layout: item/item-page-base
     
     <div class="card-body">
 
-        {% include item/download-buttons.html %}
+        {% include item/child/compound-item-download-buttons.html %}
 
     </div>
 

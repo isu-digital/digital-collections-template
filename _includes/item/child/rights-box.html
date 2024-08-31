@@ -9,8 +9,8 @@
         <dl>
             {% if child.rights %}<dt>Rights:</dt>
             <dd>{{ child.rights }}</dd>{% endif %}
-            {% if child.rightsstatement %}<dt>Standardized Rights:</dt>
-            <dd><a target="_blank" rel="noopener" href="{{ child.rightsstatement }}">{{ child.rightsstatement }}</a>
+            {% if child.rights_management_valueURI %}<dt>Standardized Rights:</dt>
+            <dd><a target="_blank" rel="noopener" href="{{ child.rights_management_valueURI }}">{{ child.rights_management_valueURI }}</a>
             </dd>{% endif %}
         </dl>
     </div>
