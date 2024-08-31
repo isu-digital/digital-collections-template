@@ -161,3 +161,140 @@ task :generate_derivatives, [:thumbs_size, :small_size, :density, :missing, :com
   end
   puts "\e[32mSee '#{list_name}' for list of objects and derivatives created.\e[0m"
 end
+
+###############################################################################
+# TASK: generate_manifests
+###############################################################################
+
+desc "Generate IIIF manifest files from collection objects"
+task :generate_manifests do
+
+  # Load _config.yml file
+  config = YAML.load_file('_config.yml')
+
+  # Define the base URL
+  base_url = config['baseurl'] || ''
+
+  # Get metadata csv value
+  csv_file_path = "_data/#{config['metadata']}.csv"
+  raise "File #{csv_file_path} does not exist" unless File.exist?(csv_file_path)
+
+  # Create 'iiif' directory within the 'objects' directory
+  iiif_directory = File.join('objects', 'iiif')
+  FileUtils.mkdir_p(iiif_directory) unless File.directory?(iiif_directory)
+
+  # Initialize a hash to store parent-child relationships and standalone objects
+  objects = {}
+  CSV.foreach(csv_file_path, headers: true) do |row|
+    if row['parentid'].to_s.strip.empty?
+      # It's either a standalone object or a parent
+      objects[row['objectid']] ||= {row: row, children: []}
+    else
+      # It's a child object
+      objects[row['parentid']] ||= {row: nil, children: []}
+      objects[row['parentid']][:children] << row
+    end
+  end
+  
+  # Generate manifests for parents and standalone objects only
+  objects.each do |objectid, data|
+    next if data[:row].nil?  # Skip if the object is a child
+
+    parent_row = data[:row]
+    children = data[:children]
+
+    # Define manifest structure
+    manifest = {
+      "@context": "http://iiif.io/api/presentation/3/context.json",
+      "id": "#{base_url}/iiif/#{parent_row['objectid']}/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [parent_row['title']]
+      },
+      # "attribution": parent_row['contributing_institution'],
+      # "logo": "#{base_url}/assets/img/collectionbuilder-logo.png",
+      "thumbnail": [
+        {
+          "id": "#{base_url}#{parent_row['image_thumb']}",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 681,
+          "width": 450
+        }
+      ],
+      "items": []
+    }
+
+    # Add children as items if any, otherwise add self
+    objects = children.any? ? children : [parent_row]
+    objects.each do |row|
+      next unless row['object_location'] # Skip if no object_location
+      items = {
+        "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/#{row['objectid']}",
+        "type": "Canvas",
+        "height": 1513,
+        "width": 1000,
+        "label": {
+          "en": [
+            row['title']
+          ]
+        },
+        "thumbnail": [
+          {
+            "id": "#{base_url}#{row['image_thumb']}",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 681,
+            "width": 450
+          }
+        ],
+        "items": [
+          {
+            "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/#{row['objectid']}",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/#{row['objectid']}",
+                "type": "Annotation",
+                "motivation": "painting",
+                "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/#{row['objectid']}",
+                "body": {
+                  "id":  "#{base_url}#{row['object_location']}",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 1513,
+                  "width": 1000
+                }
+              }
+            ]
+          }
+        ]
+      }
+      # Add rendering section if object_ocr is present
+      # if row['object_ocr'] && !row['object_ocr'].strip.empty?
+        # rendering_section = {
+          # "rendering": [
+            # {
+              # "@id": row['object_ocr'],
+              # "format": "text/plain",
+              # "label": "Raw OCR Data"
+            # }
+          # ]
+        # }
+        # items.merge!(rendering_section)
+      # end
+      # Add items to the sequence array
+      manifest[:items] << items
+    end
+
+    # Save manifest in the object's subdirectory
+    subdirectory_path = File.join(iiif_directory, parent_row['objectid'])
+    FileUtils.mkdir_p(subdirectory_path) unless File.directory?(subdirectory_path)
+    file_path = File.join(subdirectory_path, "manifest.json")
+    File.open(file_path, "w") do |file|
+      file.write(JSON.pretty_generate(manifest))
+    end
+  end
+
+  puts "IIIF manifest files created for parents and standalone objects"
+end
