@@ -1,0 +1,11 @@
+{% comment %}
+
+    Adds an iframe video embed from an Aviary link given in object_location. 
+    Sizing is controlled using Bootstrap "ratio" sizing.
+
+{%- endcomment -%}
+{% if page.object_location contains 'aviaryplatform' or page.object_location contains 'ark' %}
+<div class="ratio ratio-16x9">
+    <iframe title="video embed {{ page.title | escape }}" src="{{ page.object_location }}?embed=true" allow="fullscreen" frameborder="0"></iframe>
+</div>
+{% endif %}

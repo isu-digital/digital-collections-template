@@ -9,6 +9,9 @@ layout: item/item-page-base
     
         {% if page.object_location contains 'vimeo' or page.object_location contains 'youtu' %}
         {% include item/video-embed.html %}
+        {% elsif page.object_location contains 'aviaryplatform' or page.object_location contains 'ark' %}
+        {% include item/aviary-embed.html %}
+        {% else %}
         {% else %}
         {% include item/video-player.html %}
         {% endif %}
