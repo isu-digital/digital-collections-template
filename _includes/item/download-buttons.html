@@ -9,7 +9,7 @@
 
 {%- endcomment -%}
 <div class="btn-group" role="group" aria-label="Item options">
-    {% if page.display_template contains "complex" or page.display_template contains "simple" %}
+    {% if page.display_template contains "simple" %}
         {% include item/book-modal.html viewer="uv" %}
     {% endif %}
     {% if page.object_transcript %}<button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript" aria-expanded="false" aria-controls="collapseExample">View Transcript</button>{% endif %}
