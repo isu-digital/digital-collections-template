@@ -1,7 +1,9 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
-creator,Creator,,,
+personal_creator,Creator,,,
 subject,,true
 personal_name_subject,,true
+corporate_name_subject,,true
 location,,true
+genre,Genre,true
 identifier,,,true,Identifier

@@ -1,14 +1,19 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
+personal_creator,Creator,,,DCTERMS.creator,creator
 date,Date Created,,,DCTERMS.date,dateCreated
+chronological_subject,Chronolological Subject
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
+personal_name_subject,Personal Name Subject,true
+corporate_name_subject,Corporate Name Subject,true
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
-source,Source,,,,
+archival_collection,Source,,,,
+archival_call_number,Archival Call Number,,,,
+finding_aid_ark,Finding Aid ARK,,true,,
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
-rightsstatement,,,,DCTERMS.rights,license
+rights_management_valueURI,,,,DCTERMS.rights,license
