@@ -9,12 +9,88 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/universalviewer@4.0.0/dist/uv.css"/>
 <script src="https://cdn.jsdelivr.net/npm/universalviewer@4.0.0/dist/umd/UV.js"></script>
 <!-- add div for viewer -->
-<div class="uv" id="uv" style="width: 100%; height: 668px;"></div>
+<div class="uv h-100" id="uv"></div>
 <script>
     // initialize Universal Viewer
-    var uvOptions = {
-        manifest: {{ page.object_location | relative_url | jsonify }}
-        // add options here!
-    };
-    var iiif_viewer = UV.init("uv", uvOptions);
+    function initializeUniversalViewer() {
+        var uvOptions = {
+            manifest: {{ page.objectid | prepend: "/objects/iiif/" | append: "/manifest.json" | relative_url | jsonify }}
+            // add options here!
+        };
+        var iiif_viewer = UV.init("uv", uvOptions);
+        iiif_viewer.on("configure", function ({ config, cb }) {
+            cb({
+                options: {
+                    //pagingOptionEnabled: true,
+                    pagingEnabled: false,
+                    /*dropEnabled: false,
+                    footerPanelEnabled: true,
+                    headerPanelEnabled: true,
+                    hideAttributionPanel: true,
+                    // leftPanelEnabled: false,
+                    // rightPanelEnabled: false,
+                    limitLocales: false,
+                    overrideFullScreen: false,
+                    pagingEnabled: false,
+                    pagingOptionEnabled: true,
+                    limitToRange: true,
+                    manifestExclude: true,*/
+                },
+                modules: {
+                    footerPanel: {
+                        options: {
+                            fullscreenEnabled: true,
+                            downloadEnabled: false,
+                            shareEnabled: false
+                        },
+                    },
+                    headerPanel: {
+                        options: {
+                            centerOptionsEnabled: false,
+                            localeToggleEnabled: false,
+                            centerOptionsEnabled: false
+                        },
+                    }
+                    /*pagingHeaderPanel: {
+                        options: {
+                            modeOptionsEnabled: true,
+                            pageModeEnabled: true,
+                            pagingToggleEnabled: true,
+                            imageSelectionBoxEnabled: true
+                        },
+                    },
+                    searchFooterPanel: {
+                        options: {
+                            pageModeEnabled: true,
+                        },
+                    },
+                    footerPanel: {
+                        options: {
+                            fullscreenEnabled: false,
+                            downloadEnabled: false,
+                            shareEnabled: false
+                        },
+                    },
+                    headerPanel: {
+                        options: {
+                            centerOptionsEnabled: false,
+                            localeToggleEnabled: false,
+                            centerOptionsEnabled: false
+                        },
+                    },
+                    moreInfoRightPanel: {
+                        options: {
+                            limitToRange: true,
+                        },
+                    },
+                    contentLeftPanel: {
+                        options: {
+                            defaultToTreeEnabled: true,
+                        },
+                    },*/
+                },
+            });
+        });
+    }
+    initializeUniversalViewer();
 </script>
