@@ -1,7 +1,7 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
-personal_creator,Creator,,,
-subject,,true
+personal_creator,Creator,true,,
+subject,Subjects,true
 personal_name_subject,,true
 corporate_name_subject,,true
 location,,true
