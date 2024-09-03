@@ -5,5 +5,5 @@ subject,,true
 personal_name_subject,,true
 corporate_name_subject,,true
 location,,true
-genre,Genre,true
+genre,Material Type,true
 identifier,,,true,Identifier
