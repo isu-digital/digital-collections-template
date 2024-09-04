@@ -2,7 +2,8 @@ field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 personal_creator,Creator,true,,DCTERMS.creator,creator
 corporate_creator,Organizational Creator,true,,,
-personal_contributor;corporate_contributor,Personal Contributor,,,,
+personal_contributor,Personal Contributor,true,,,
+corporate_contributor, Organizational Contributor,true,,,
 date,Date Created,,,DCTERMS.date,dateCreated
 chronological_subject,Chronolological Subject,true
 description,Description,,,DCTERMS.description,description
@@ -10,15 +11,16 @@ extent,Extent,,,,
 subject,Subjects,true,,DCTERMS.subject,keywords
 personal_name_subject,Personal Name Subject,true
 corporate_name_subject,Corporate Name Subject,true
-location,Location,true,,,contentLocation
+location,Places,true,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
-archival_collection,Source,,,,
-archival_call_number,Archival Call Number,,,,
-finding_aid_ark,Finding Aid ARK,,true,,
-identifier,Source Identifier,,,,
 genre,Material Type,true
 type,Type,true,,DCTERMS.type,
 format,Format,,,,encodingFormat
-ark,Item Permalink,,,,
+archival_collection,Source,,,,
+archival_call_number,Archival Call Number,,,,
+finding_aid_ark,Finding Aid Permalink (ARK),,true,,
+objectid,Local Identifier,,,,
+ark,Item Permalink,,true,,
+relation_uri,Permalinks for Digital Collection and Digital Exhibit,,,,
 rights_management_valueURI,,,,DCTERMS.rights,license
