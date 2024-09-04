@@ -59,9 +59,9 @@ year-nav-increment: 3 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "objectid,collectionid,parentid,display_template,sequence,title,archival_call_number,archival_collection,finding_aid_ark,archival_series_title,folder_title,box,folder_num,contributing_institution,contributing_institution_uri,personal_creator,personal_creator_uri,corporate_creator,corporate_creator_uri,interviewee,interviewee_uri,interviewer,interviewer_uri,personal_contributor,personal_contributor_uri,corporate_contributor,corporate_contributor_uri,description,language,subject,subject_uri,location,location_uri,latitude,longitude,geodetic_datum,personal_name_subject,personal_name_subject_uri,corporate_name_subject,corporate_name_subject_uri,chronological_subject,extent,medium,medium_uri,genre,genre_uri,type,format,rights,rights_management_valueURI,date,date_digital,publisher,publisher_uri,ark,pres_file,filename,image_small,image_thumb,object_location,object_pdf,image_alt_text,object_ocr,object_hocr,object_transcript,avian_id,uid,issuance,issuance_start,issuance_end,frequency,relation,relation_uri,disclaimer,digital_origin"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "subject,personal_creator,location,personal_name_subject,corporate_name_subject,chronological_subject,genre,format"
 
 ##########
 # Compound Objects 
@@ -98,8 +98,8 @@ bootswatch: # leave blank or comment out for plain bootstrap
 base-font-size: 1.2em
 text-color: "#191919"
 link-color: "#0d6efd"
-base-font-family: # comment out for bootstrap defaults. e.g. Roboto
-font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+base-font-family: 'Nimbus Sans' # comment out for bootstrap defaults. e.g. Roboto
+font-cdn: <link rel="stylesheet" href="https://cdn.theme.iastate.edu/nimbus-sans/nimbus-sans.css"> # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 # THEME ICONS [optional!]
 # default icons can be overridden or new icons can be added using "icons" object
