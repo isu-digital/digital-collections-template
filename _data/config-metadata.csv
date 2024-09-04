@@ -14,6 +14,7 @@ archival_collection,Source,true,,,
 archival_call_number,Archival Call Number,,,,
 finding_aid_ark,Finding Aid ARK,,true,,
 identifier,Source Identifier,,,,
+genre,Material Type,true
 type,Type,true,,DCTERMS.type,
 format,Format,,,,encodingFormat
 rights_management_valueURI,,,,DCTERMS.rights,license

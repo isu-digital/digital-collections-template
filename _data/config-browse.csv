@@ -7,3 +7,5 @@ corporate_name_subject,,true
 location,,true
 genre,Material Type,true
 identifier,,,true,Identifier
+chronological_subject,,,true
+archival_collection,,,true
