@@ -1,7 +1,10 @@
 field,index,display
 title,true,true
 date,true,true
-creator,true,false
+personal_creator,true,false
 description,true,true
 subject,true,true
+personal_name_subject,true,true
+corporate_name_subject,true,true
 location,true,false
+identifier,true,true
