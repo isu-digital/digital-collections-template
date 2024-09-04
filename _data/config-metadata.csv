@@ -1,20 +1,24 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 personal_creator,Creator,true,,DCTERMS.creator,creator
+corporate_creator,Organizational Creator,true,,,
+personal_contributor;corporate_contributor,Personal Contributor,,,,
 date,Date Created,,,DCTERMS.date,dateCreated
 chronological_subject,Chronolological Subject,true
 description,Description,,,DCTERMS.description,description
+extent,Extent,,,,
 subject,Subjects,true,,DCTERMS.subject,keywords
 personal_name_subject,Personal Name Subject,true
 corporate_name_subject,Corporate Name Subject,true
-location,Location,,,,contentLocation
+location,Location,true,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
-archival_collection,Source,true,,,
+archival_collection,Source,,,,
 archival_call_number,Archival Call Number,,,,
 finding_aid_ark,Finding Aid ARK,,true,,
 identifier,Source Identifier,,,,
 genre,Material Type,true
 type,Type,true,,DCTERMS.type,
 format,Format,,,,encodingFormat
+ark,Item Permalink,,,,
 rights_management_valueURI,,,,DCTERMS.rights,license
