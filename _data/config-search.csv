@@ -8,3 +8,9 @@ personal_name_subject,true,true
 corporate_name_subject,true,true
 location,true,false
 identifier,true,true
+corporate_creator,true,true
+personal_contributor,true,true
+corporate_contributor,true,true
+chronological_subject,true,true
+identifier,true,true
+genre,true,true
