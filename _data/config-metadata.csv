@@ -21,6 +21,6 @@ archival_collection,Source,,,,
 archival_call_number,Archival Call Number,,,,
 finding_aid_ark,Finding Aid Permalink (ARK),,true,,
 objectid,Local Identifier,,,,
-ark,Item Permalink,,true,,
+ark,Item Permalink,,,,
 relation_uri,Permalinks for Digital Collection and Digital Exhibit,,,,
 rights_management_valueURI,,,,DCTERMS.rights,license
