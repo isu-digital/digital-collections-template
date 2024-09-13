@@ -59,9 +59,9 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "objectid,collectionid,parentid,display_template,sequence,title,archival_call_number,archival_collection,finding_aid_ark,archival_series_title,folder_title,box,folder_num,contributing_institution,contributing_institution_uri,personal_creator,personal_creator_uri,corporate_creator,corporate_creator_uri,interviewee,interviewee_uri,interviewer,interviewer_uri,personal_contributor,personal_contributor_uri,corporate_contributor,corporate_contributor_uri,description,language,subject,subject_uri,location,location_uri,latitude,longitude,geodetic_datum,personal_name_subject,personal_name_subject_uri,corporate_name_subject,corporate_name_subject_uri,chronological_subject,extent,medium,medium_uri,genre,genre_uri,type,format,rights,rights_management_valueURI,date,date_digital,publisher,publisher_uri,ark,pres_file,filename,image_small,image_thumb,object_location,object_pdf,image_alt_text,object_ocr,object_hocr,object_transcript,avian_id,uid,issuance,issuance_start,issuance_end,frequency,relation,relation_uri,disclaimer,digital_origin"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "subject,personal_creator,location,personal_name_subject,corporate_name_subject,chronological_subject,genre,format"
 
 ##########
 # Compound Objects 
@@ -69,12 +69,12 @@ metadata-facets-fields: "subject,creator,format"
 # Ignore this section if you are not including any compound objects
 # Note, like other items, child objects will only appear in visualizations if they have the correct metadata (lat long for map; date for timeline)
 # select true below if you'd like your compound object's child objects to appear in any of the pages or features listed
-map-child-objects: true # true / false - if true, and if child item has latitude and longitude, child objects will be displayed on map
-timeline-child-objects: true # true / false - if true, and if child object has date, child objects will appear as thumbnails on timeline page
+map-child-objects: false # true / false - if true, and if child item has latitude and longitude, child objects will be displayed on map
+timeline-child-objects: false # true / false - if true, and if child object has date, child objects will appear as thumbnails on timeline page
 data-child-objects: false # true / false - if true, child objects will appear linked in table on data page
 carousel-child-objects: false # true / false - if true, child objects will appear on homepage carousel
 browse-child-objects: false # true / false - if true, child objects will appear on browse page and child objects' metadata will populate cloud pages like Subjects page and Locations page, as well as featured terms boxes on the home page
-search-child-objects: true # true / false - if true, child objects will appear on on search page along with parent objects
+search-child-objects: false # true / false - if true, child objects will appear on on search page along with parent objects
 
 
 ##########
