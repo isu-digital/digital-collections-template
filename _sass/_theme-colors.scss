@@ -118,7 +118,9 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
 @function opaque($background, $foreground) {
     @return mix(rgba($foreground, 1), $background, opacity($foreground) * 100%);
 }
-// Return WCAG2.0 relative luminance
+// Return WCAG2.1 relative luminance
+// See https://www.w3.org/TR/WCAG/#dfn-relative-luminance
+// See https://www.w3.org/TR/WCAG/#dfn-contrast-ratio
 @function luminance($color) {
     $rgb: (
         "r": red($color),
@@ -127,7 +129,7 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
     );
 
     @each $name, $value in $rgb {
-        $value: if(divide($value, 255) < .03928, divide(divide($value, 255), 12.92), nth($_luminance-list, $value + 1));
+        $value: if(divide($value, 255) < .04045, divide(divide($value, 255), 12.92), nth($_luminance-list, $value + 1));
         $rgb: map-merge($rgb, ($name: $value));
     }
 
