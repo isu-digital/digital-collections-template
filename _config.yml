@@ -8,9 +8,9 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://digital.lib.iastate.edu
+url: https://digitalcollections.iastatedigital.org
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/mezvinsky
+baseurl: /collections/demo
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
