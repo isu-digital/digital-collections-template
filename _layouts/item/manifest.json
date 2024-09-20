@@ -1,0 +1,108 @@
+{%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' -%}
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "{{ '/manifests/' | append: page.objectid | append: '.json' | relative_url }}",
+    "type": "Manifest",
+    "label": {
+      "{{ page.language }}": [
+        "{{ page.title }}"
+      ]
+    }{%- if page.image_thumb -%},
+    "thumbnail": [
+        {
+            "id": "{{ page.image_thumb | prepend: '/objects/thumbs/' | relative_url }}",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 500,
+            "width": 450
+        }
+    ]{%- endif -%},
+    "items": [
+        {% if children == empty %}
+        {
+            "id": "{{ page.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+            "type": "Canvas",
+            "height": 1513,
+            "width": 1000,
+            "label": {
+              "en": [
+                "{{ page.title }}"
+              ]
+            }{%- if page.image_thumb -%},
+            "thumbnail": [
+                {
+                    "id": "{{ page.image_thumb | prepend: '/objects/thumbs/' | relative_url }}",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 500,
+                    "width": 450
+                }
+            ]{%- endif -%},
+            "items": [
+                {
+                    "id": "{{ page.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "{{ page.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/' }}",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "{{ page.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+                            "body": {
+                                "id": "{{ page.object_location | prepend: '/objects/' | relative_url }}",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1513,
+                                "width": 1000
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        {%- elsif children -%}
+        {%- for c in children -%}
+        {
+            "id": "{{ c.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+            "type": "Canvas",
+            "height": 1513,
+            "width": 1000,
+            "label": {
+            "en": [
+                "{{ c.title }}"
+            ]
+            }{%- if c.image_thumb -%},
+            "thumbnail": [
+                {
+                    "id": "{{ c.image_thumb | prepend: '/objects/thumbs/' | relative_url }}",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 500,
+                    "width": 450
+                }
+            ]{%- endif -%},
+            "items": [
+                {
+                    "id": "{{ c.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "{{ c.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "{{ c.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/' }}",
+                            "body": {
+                                "id": "{{ c.object_location | prepend: '/objects/' |relative_url }}",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1513,
+                                "width": 1000
+                            }
+                        }
+                    ]
+                }
+            ]
+        }{% unless forloop.last %},
+        {% endunless %}{% endfor %}{% endif %}
+    ]
+}
