@@ -14,7 +14,7 @@
     // initialize Universal Viewer
     function initializeUniversalViewer() {
         var uvOptions = {
-            manifest: {{ page.objectid | prepend: "/objects/iiif/" | append: "/manifest.json" | relative_url | jsonify }}
+            manifest: {{ page.objectid | prepend: "/manifests/" | append: ".json" | relative_url | jsonify }}
             // add options here!
         };
         var iiif_viewer = UV.init("uv", uvOptions);
@@ -37,10 +37,15 @@
                     manifestExclude: true,*/
                 },
                 modules: {
-                    footerPanel: {
+                    moreInfoRightPanel: {
+                        options: {
+                            limitToRange: true,
+                        },
+                    },
+                    /*footerPanel: {
                         options: {
                             fullscreenEnabled: true,
-                            downloadEnabled: false,
+                            downloadEnabled: true,
                             shareEnabled: false
                         },
                     },
@@ -50,7 +55,12 @@
                             localeToggleEnabled: false,
                             centerOptionsEnabled: false
                         },
-                    }
+                    },
+                    contentLeftPanel: {
+                        options: {
+                            defaultToTreeEnabled: true,
+                        },
+                    }*/
                     /*pagingHeaderPanel: {
                         options: {
                             modeOptionsEnabled: true,
