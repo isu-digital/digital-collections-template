@@ -1,26 +1,39 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-personal_creator,Creator,true,,DCTERMS.creator,creator
-corporate_creator,Organizational Creator,true,,,
-personal_contributor,Personal Contributor,true,,,
-corporate_contributor, Organizational Contributor,true,,,
+personal_creator,Creator (Person),true,,DCTERMS.creator,creator
+corporate_creator,Creator (Organization),true,,,
+interviewee,Interviewee,,,,
+interviewer,Interviewer,,,,
 date,Date Created,,,DCTERMS.date,dateCreated
-chronological_subject,Chronolological Subject,true
+chronological_subject,Time Period,true,,,
 description,Description,,,DCTERMS.description,description
-extent,Extent,,,,
-subject,Subjects,true,,DCTERMS.subject,keywords
-personal_name_subject,Personal Name Subject,true
-corporate_name_subject,Corporate Name Subject,true
-location,Places,true,,,contentLocation
+subject,Subject (Topic),true,,DCTERMS.subject,keywords
+personal_name_subject,Subject (Person),true,,,
+corporate_name_subject,Subject (Organization),true,,,
+personal_contributor,Contributor (Person),true,,,
+corporate_contributor,Contributor (Organization),true,,,
+location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
-genre,Material Type,true
+language,Language,,,,
+archival_collection,Source,,,,
+other_collection,Source,,,,
+call_number,Call Number,,,,
+archival_series_title,Archival Series,true,,,
+box,Box,,,,
+folder_title,Folder Title,,,,
+folder_num,Folder Number,,,,
+finding_aid_ark,Finding Aid Permalink,,true,,
+contributing_institution,Contributing Institution,,,,
+publisher,Publisher,true,,,
+extent,Extent,,,,
+medium,Medium,true,,,
+genre,Genre,true,,,
 type,Type,true,,DCTERMS.type,
 format,Format,,,,encodingFormat
-archival_collection,Source,,,,
-archival_call_number,Archival Call Number,,,,
-finding_aid_ark,Finding Aid Permalink (ARK),,true,,
-objectid,Local Identifier,,,,
-ark,Item Permalink,,,,
-relation_uri,Permalinks for Digital Collection and Digital Exhibit,,,,
-rights_management_valueURI,,,,DCTERMS.rights,license
+digital_collection,Digital Collection Title,,,,
+digital_collection_ark,Digital Collection Permalink,,,,
+relation_uri,Related Digital Exhibit,,,,
+objectid,Identifier,,,,
+ark,Object Permalink,,true,,
+rights_management_valueURI,,,true,DCTERMS.rights,license
