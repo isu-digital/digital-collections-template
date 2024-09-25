@@ -11,6 +11,11 @@
     - "text" = body text for modal pop up, can use markdown formatting (tip: use a Liquid capture to add more complex content)
 
 {%- endcomment -%}
+<style>
+    .wrap {
+        height: auto !important;
+    }
+</style>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#{{ page.objectid | slugify }}Modal"> 
     <!--<svg class="bi icon-sprite" role="img" aria-label="View">
