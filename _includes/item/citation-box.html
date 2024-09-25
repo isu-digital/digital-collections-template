@@ -9,8 +9,10 @@
         <dl>
             <dt>Preferred Citation:</dt>
             <dd>"{{ page.title }}", {{ site.title }}, {{ site.organization-name }}</dd>
+            {% if page.ark %}
             <dt>Reference Link:</dt>
-            <dd>{{ page.url | absolute_url }}</dd>
+            <dd>{{ page.ark }}</dd>
+            {% endif %}
         </dl>
     </div>
 </div>
