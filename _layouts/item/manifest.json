@@ -1,22 +1,32 @@
 {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' -%}
+{%- assign fields = site.data.config-metadata | where_exp: 'item', 'item.display_name != nil' -%}
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "{{ '/manifests/' | append: page.objectid | append: '.json' | relative_url }}",
-    "type": "Manifest",
-    "label": {
-      "{{ page.language }}": [
-        "{{ page.title }}"
-      ]
-    }{%- if page.image_thumb -%},
-    "thumbnail": [
-        {
-            "id": "{{ page.image_thumb | prepend: '/objects/thumbs/' | relative_url }}",
-            "type": "Image",
-            "format": "image/jpeg",
-            "height": 500,
-            "width": 450
-        }
-    ]{%- endif -%},
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "{{ '/manifests/' | append: page.objectid | append: '.json' | relative_url }}",
+   "type": "Manifest",
+   "label": {
+       "{{ page.language | default: 'eng' }}": [
+       "{{ page.title }}"
+       ]
+   },
+   "attribution": "{{ page.contributing_institution }}",
+   "metadata": [
+   {%- for f in fields -%}{% if page[f.field] %}
+      {
+          "label": "{{ f.display_name }}",
+          "value": "{{ page[f.field] }}"
+      }{% unless forloop.last %},{% endunless %}
+   {% endif %}{%- endfor -%}
+   ]{%- if page.image_thumb -%},
+   "thumbnail": [
+      {
+         "id": "{{ page.image_thumb | relative_url }}",
+         "type": "Image",
+         "format": "image/jpeg",
+         "height": 500,
+         "width": 450
+      }
+   ]{%- endif -%},
     "items": [
         {% if children == empty %}
         {
@@ -25,13 +35,13 @@
             "height": 1513,
             "width": 1000,
             "label": {
-              "en": [
+              "{{ page.language }}": [
                 "{{ page.title }}"
               ]
             }{%- if page.image_thumb -%},
             "thumbnail": [
                 {
-                    "id": "{{ page.image_thumb | prepend: '/objects/thumbs/' | relative_url }}",
+                    "id": "{{ page.image_thumb | relative_url }}",
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 500,
@@ -49,7 +59,7 @@
                             "motivation": "painting",
                             "target": "{{ page.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
                             "body": {
-                                "id": "{{ page.object_location | prepend: '/objects/' | relative_url }}",
+                                "id": "{{ page.object_location | relative_url }}",
                                 "type": "Image",
                                 "format": "image/jpeg",
                                 "height": 1513,
@@ -68,13 +78,13 @@
             "height": 1513,
             "width": 1000,
             "label": {
-            "en": [
+            "{{ page.language }}": [
                 "{{ c.title }}"
             ]
             }{%- if c.image_thumb -%},
             "thumbnail": [
                 {
-                    "id": "{{ c.image_thumb | prepend: '/objects/thumbs/' | relative_url }}",
+                    "id": "{{ c.image_thumb | relative_url }}",
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 500,
@@ -92,7 +102,7 @@
                             "motivation": "painting",
                             "target": "{{ c.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/' }}",
                             "body": {
-                                "id": "{{ c.object_location | prepend: '/objects/' |relative_url }}",
+                                "id": "{{ c.object_location | relative_url }}",
                                 "type": "Image",
                                 "format": "image/jpeg",
                                 "height": 1513,
