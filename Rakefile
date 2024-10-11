@@ -206,7 +206,7 @@ task :generate_manifests do
     # Define manifest structure
     manifest = {
       "@context": "http://iiif.io/api/presentation/3/context.json",
-      "id": "#{base_url}/iiif/#{parent_row['objectid']}/manifest.json",
+      "id": "/objects/iiif/#{parent_row['objectid']}/manifest.json",
       "type": "Manifest",
       "label": {
         "en": [parent_row['title']]
@@ -215,7 +215,7 @@ task :generate_manifests do
       # "logo": "#{base_url}/assets/img/collectionbuilder-logo.png",
       "thumbnail": [
         {
-          "id": "#{base_url}#{parent_row['image_thumb']}",
+          "id": "#{parent_row['image_thumb']}",
           "type": "Image",
           "format": "image/jpeg",
           "height": 681,
@@ -241,7 +241,7 @@ task :generate_manifests do
         },
         "thumbnail": [
           {
-            "id": "#{base_url}#{row['image_thumb']}",
+            "id": "#{row['image_thumb']}",
             "type": "Image",
             "format": "image/jpeg",
             "height": 681,
@@ -259,7 +259,7 @@ task :generate_manifests do
                 "motivation": "painting",
                 "target": "https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/#{row['objectid']}",
                 "body": {
-                  "id":  "#{base_url}#{row['object_location']}",
+                  "id":  "#{row['object_location']}",
                   "type": "Image",
                   "format": "image/jpeg",
                   "height": 1513,
