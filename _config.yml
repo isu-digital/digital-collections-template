@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://digitalcollections.iastatedigital.org
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/demo
+baseurl: /collections/pammelcourt
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -21,28 +21,28 @@ digital-assets: https://digitalcollections.iastatedigital.org/assets/
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Pammel Court
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Documenting the history of the Pammel Court student housing complex.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "The history of Pammel Court is a story of community and place. Originally founded after World War II to provide temporary housing for returning veterans and their families, Pammel Court's collection of surplus metal units and narrow streets became a significant part of the Iowa State landscape for over fifty years. During its existence, Pammel Court was known by many names, including 'boomtown,' 'the silver city,' 'fertile acres,' 'the city within a city, and even the 'slums' of Iowa State. Few places on campus have evoked such strong feelings and memories. From 1946 to 1978, Pammel Court was reserved for married students and their children. This collection contains materials about the creation of a housing development, the building of a community, and the lasting memories of place."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; midwest
+keywords: student housing; college students; benn, chuck (charles laverne), 1918-2012; jepeway, janet a., 1942-2006; elder, alan
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: mrcummings
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: mezvinsky
+metadata: pammelcourt
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: mezvinsky
-  - data: 'mezvinsky-iiif'
+  - data: pammelcourt
+  - data: 'pammelcourt-iiif'
     template: 'manifest'
     template_override: true
     name: 'objectid'
