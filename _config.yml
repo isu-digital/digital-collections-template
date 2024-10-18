@@ -21,28 +21,28 @@ digital-assets: https://digitalcollections.iastatedigital.org/assets/
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Carrie Chapman Catt
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Documents and Objects Relating to suffragist Carrie Chapman Catt
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "Carrie Lane Chapman Catt (1859-1947) was a suffragist, early feminist, political activist, and Iowa Agricultural College (Iowa State University) alumna (1880). She was president (1900-1904 and 1915-1920) of the National American Woman Suffrage Association. She also formed and was president (1904-1923) of the International Woman Suffrage Alliance. In 1920, she helped found the League of Women Voters."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; midwest
+keywords: women's rights; suffrage; wilson, woodrow, 1856-1924; catt, carrie chapman, 1859-1947; parades
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: mrcummings
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: mezvinsky
+metadata: catt
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: mezvinsky
-  - data: 'mezvinsky-iiif'
+  - data: catt
+  - data: 'catt-iiif'
     template: 'manifest'
     template_override: true
     name: 'objectid'
