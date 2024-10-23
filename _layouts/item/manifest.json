@@ -14,7 +14,7 @@
    {%- for f in fields -%}{% if page[f.field] %}
       {
           "label": "{{ f.display_name }}",
-          "value": "{{ page[f.field] }}"
+          "value": {{ page[f.field] | jsonify }}
       }{% unless forloop.last %},{% endunless %}
    {% endif %}{%- endfor -%}
    ]{%- if page.image_thumb -%},
