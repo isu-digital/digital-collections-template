@@ -15,7 +15,7 @@
       {
           "label": "{{ f.display_name }}",
           "value": {{ page[f.field] | jsonify }}
-      }{% unless forloop.last %},{% endunless %}
+      }{% unless f.field == "ark" or f.field == "disclaimer" %},{% endunless %}
    {% endif %}{%- endfor -%}
    ]{%- if page.image_thumb -%},
    "thumbnail": [
