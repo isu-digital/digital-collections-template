@@ -4,6 +4,8 @@ about page image is public domain, pulled from wikimedia commons <https://common
 
 featured image is a jpeg created from screenshot, stored in assets/img folder. (owikle 2024-10-28)
 
+locations page removed from nav (owikle 2024-10-28)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
