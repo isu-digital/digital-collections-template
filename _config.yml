@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://isuu00001library102stg.z21.web.core.windows.net
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/demo
+baseurl: /collections/fashionplates
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -21,14 +21,14 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Mary A. Barton Fashion Illustration Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: Digital Collection Magic with Static Web Technologies
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "The collection (1776-2003) contains plates of general fashion dating back to the 18th century and continuing into the 21st century. Additional categories within the files include accessories, baby and beach fashions, bridal fashions and portraits, children's and Communion clothing, footwear, inaugural gowns, maid uniforms, masquerade costumes, men's fashion, millinery, negligees and undergarments, and mourning dresses. There are also magazine issues relating to fashion as well as magazine articles discussing fashion of the Ancient, Medieval, Renaissance, and Modern periods."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; midwest
+keywords: costume;fashion;fashion prints;fashion drawing;clothing and dress
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 
@@ -37,12 +37,12 @@ author: CollectionBuilder
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-metadata
+metadata: fashionplates
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: demo-metadata
-  - data: 'demo-metadata-iiif'
+  - data: fashionplates
+  - data: 'fashionplates-iiif'
     template: 'manifest'
     template_override: true
     name: 'objectid'
