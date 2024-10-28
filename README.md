@@ -1,3 +1,9 @@
+# change log
+
+about page image is public domain, pulled from wikimedia commons <https://commons.wikimedia.org/wiki/File:Michel_Chevalier.jpg>. Dated from 19th c. Unknown author, source <https://www.annales.org/archives/x/chevalier.html>. Image is michel_chevalier.jpg stored in assets/img folder (owikle 2024-10-28)
+
+featured image is a jpeg created from screenshot, stored in assets/img folder. (owikle 2024-10-28)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
