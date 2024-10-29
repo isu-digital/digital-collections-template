@@ -1,3 +1,7 @@
+# Changelog
+* Removed Locations word cloud from navigation due to lack of terms in metadata
+(emanderson811 10/29/2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
