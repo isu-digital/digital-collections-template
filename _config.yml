@@ -23,12 +23,12 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: Iowa State University Commencement Programs
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digitized early programs of Iowa State 
+tagline: Early programs from Iowa State graduation ceremonies
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "The commencement records of Iowa State University contain commencement programs, addresses, correspondence, invitations, newspaper clippings, photographs, and programs documenting the commencement ceremony at Iowa State University, beginning in 1872 and continuing to the present day. This digital collection comprises a selection of digitized commencement programs. Commencement programs are not official graduation records. For official dates and degrees contact the Iowa State University Registrar's Office (515-294-1840 or registrar@iastate.edu)."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: graduation; iowa state college; student ceremonies; alumni
+keywords: graduation events; iowa state college; student ceremonies; alumni
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: lsulli12
 
