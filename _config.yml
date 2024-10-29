@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://isuu00001library102stg.z21.web.core.windows.net
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/demo
+baseurl: /collections/vicoh
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -21,28 +21,28 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Voices in Color Oral Histories
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Selection of oral history interviews of students, staff, and faculty of color at Iowa State University
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "Stories of communities of color have traditionally been relegated to the margins of America's historical narrative and the documentation of communities of color have not been acquired and preserved by America's cultural heritage institutions. When these stories are told, they are typically told from the perspective of Whiteness, continuing to silence these communities. This pattern holds true at Predominantly White Institutions (PWIs) like Iowa State University, where discussions of racial and ethnic diversity in Iowa State's history typically focus on Jack Trice and George Washington Carver. Individuals of color at predominantly white institutions face a multitude of obstacles at predominantly white institutions, including Iowa State University. These obstacles include feelings of isolation, a lack of mentorship, devaluing of minority-centered research, among others. Communities of color (such as organizations and culture centers) provide spaces for students, faculty, and staff of color to build relationships, network, gain mentors, and provide an outlet for race-based frustrations. These communities are central to improving the quality of life for many racial and ethnic minorities at PWIs. This project seeks to document, preserve, and share the history of racial and ethnic diversity at Iowa State University through the lens of communities of color, inserting these stories into Iowa State's historical narrative and archival record."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; midwest
+keywords: african americans; black faculty and staff association; hispanic americans; lambda theta alpha; oral history
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: emanderson811
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-metadata
+metadata: vicoh
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: demo-metadata
-  - data: 'demo-metadata-iiif'
+  - data: vicoh
+  - data: 'vicoh-iiif'
     template: 'manifest'
     template_override: true
     name: 'objectid'

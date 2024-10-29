@@ -8,26 +8,8 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/vicoh/small/vic_sm.jpg" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
+## About the collection
 
-## About CollectionBuilder CSV
-
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
-
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
-
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
-
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+Stories of communities of color have traditionally been relegated to the margins of America's historical narrative and the documentation of communities of color have not been acquired and preserved by America's cultural heritage institutions. When these stories are told, they are typically told from the perspective of Whiteness, continuing to silence these communities. This pattern holds true at Predominantly White Institutions (PWIs) like Iowa State University, where discussions of racial and ethnic diversity in Iowa State's history typically focus on Jack Trice and George Washington Carver. Individuals of color at predominantly white institutions face a multitude of obstacles at predominantly white institutions, including Iowa State University. These obstacles include feelings of isolation, a lack of mentorship, devaluing of minority-centered research, among others. Communities of color (such as organizations and culture centers) provide spaces for students, faculty, and staff of color to build relationships, network, gain mentors, and provide an outlet for race-based frustrations. These communities are central to improving the quality of life for many racial and ethnic minorities at PWIs. This project seeks to document, preserve, and share the history of racial and ethnic diversity at Iowa State University through the lens of communities of color, inserting these stories into Iowa State's historical narrative and archival record.
