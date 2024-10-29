@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://isuu00001library102stg.z21.web.core.windows.net
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/demo
+baseurl: /collections/dumont
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -21,28 +21,28 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Philip A. DuMont Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: A selection of correspondence and other documents from DuMont's research on birds, bird specimen collections, and wildlife areas in Iowa
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "Philip A. DuMont was an ornithologist and naturalist who spent much of his early life in Iowa. He published a monograph on Iowa birds and was hired by Jay N. 'Ding' Darling to assess potential wildlife areas in Iowa. He worked in the U.S. Fish and Wildlife Service from 1935 to 1972 and wrote hundreds of leaflets, bird and mammal lists, and brochures for the refuge system. This collection includes correspondence and other documents from DuMont's time in Iowa on topics including birds, avian specimen collections, and potential wildlife areas."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; midwest
+keywords: iowa; ornithology; birds; conservation; common starling; wildlife areas; bird specimens;
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: emanderson811
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-metadata
+metadata: dumont
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: demo-metadata
-  - data: 'demo-metadata-iiif'
+  - data: dumont
+  - data: 'dumont-iiif'
     template: 'manifest'
     template_override: true
     name: 'objectid'
