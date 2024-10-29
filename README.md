@@ -4,7 +4,7 @@ about page image is public domain, pulled from wikimedia commons <https://common
 
 featured image is a jpeg created from screenshot, stored in assets/img folder. (owikle 2024-10-28)
 
-locations page removed from nav (owikle 2024-10-28)
+locations page removed from nav since there is only one location (owikle 2024-10-28)
 
 # CollectionBuilder-CSV
 
