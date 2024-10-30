@@ -7,7 +7,7 @@ corporate_contributor,,true,,
 subject,Subjects,true
 personal_name_subject,,true
 corporate_name_subject,,true
-location,Places,true
-genre,Material Type,true
+location,location,true
+genre,Genre,true
 type,,,true
 objectid,,,true,Identifier
