@@ -9,6 +9,7 @@ credits: true
 ---
 
 {% include feature/jumbotron.html objectid="leopoldfrederic98" %} 
+{% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
 ## About the collection
 
@@ -16,4 +17,4 @@ Frederic Leopold (1895-1989), the brother of wildlife ecologist Aldo Leopold, wa
 
 ## Related resources
 
-[Avian Archives of Iowa Online (avIAn)](https://avian.lib.iastate.edu)
+[Avian Archives of Iowa Online (avIAn)](https://avian.lib.iastate.edu){:target="_blank" rel="noopener"}
