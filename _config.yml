@@ -8,14 +8,14 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://digitalcollections.iastatedigital.org
+url: https://isuu00001library102stg.z21.web.core.windows.net
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: /collections/pammelcourt
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
 # url to the shared assets folder on mainweb
-digital-assets: https://digitalcollections.iastatedigital.org/assets/
+digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 
 ##########
 # SITE SETTINGS
@@ -56,9 +56,9 @@ page_gen:
 #   To remove the branding, comment out these values, or delete them. 
 #
 organization-name: "Iowa State University Library Digital Collections"
-organization-link: https://digital.lib.iastate.edu/collections/
-organization-logo-banner: https://digitalcollections.iastatedigital.org/assets/media/ISU_Library_Center_Red.png
-organization-logo-nav: https://digitalcollections.iastatedigital.org/assets/media/ISU_Library_Center_White.png
+organization-link: https://www.lib.iastate.edu/
+organization-logo-banner: https://isuu00001library102stg.z21.web.core.windows.net/assets/media/ISU_Library_Center_Red.png
+organization-logo-nav: https://isuu00001library102stg.z21.web.core.windows.net/assets/media/ISU_Library_Center_White.png
 
 ##########
 # ROBOTS EXCLUDE
