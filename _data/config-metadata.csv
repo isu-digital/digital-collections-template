@@ -12,7 +12,7 @@ personal_name_subject,Subject (Person),true,,DCTERMS.subject,
 corporate_name_subject,Subject (Organization),true,,DCTERMS.subject,
 personal_contributor,Contributor (Person),true,,DCTERMS.contributor,
 corporate_contributor,Contributor (Organization),true,,DCTERMS.contributor,
-location,Location,true,,DCTERMS.spatial,contentLocation
+location,Location,true,,DCTERMS.coverage,contentLocation
 latitude,Latitude,,,DCTERMS.spatial,
 longitude,Longitude,,,DCTERMS.spatial,
 language,Language,,,DCTERMS.language,
@@ -33,9 +33,11 @@ type,Type,true,,DCTERMS.type,
 format,Format,,,DCTERMS.format,encodingFormat
 digital_collection,Digital Collection Title,,,DCTERMS.relation,
 digital_collection_ark,Digital Collection Permalink,,true,DCTERMS.relation,
-relation_uri,Related Resource,,true,DCTERMS.relation,
+relation,Related Resource,,,DCTERMS.relation,
 avian_id,Avian Identifier,,,DCTERMS.identifier,
 objectid,Identifier,,,DCTERMS.identifier,
 filename,Filename,,,DCTERMS.identifier,
-ark,Object Permalink,,true,DCTERMS.identifier,
-rights_management_valueURI,,,true,DCTERMS.rights,license
+ark,Item Permalink,,true,DCTERMS.identifier,
+rights,,,,DCTERMS.rights,
+rightsstatement,,,true,DCTERMS.rights,license
+disclaimer,Disclaimer,,,DCTERMS.description,
