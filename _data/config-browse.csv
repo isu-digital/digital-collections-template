@@ -10,6 +10,4 @@ corporate_name_subject,,true
 location,Places,true
 genre,Material Type,true
 type,,,true
-identifier,,,true,Identifier
-chronological_subject,,,true
-archival_collection,,,true
+objectid,,,true,Identifier
