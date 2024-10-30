@@ -9,6 +9,7 @@ credits: true
 ---
 
 {% include feature/jumbotron.html objectid="iowastateparks103" %} 
+{% include feature/nav-menu.html sections="About the collection;Related resources" %} 
 
 ## About the collection
 
@@ -16,4 +17,4 @@ In the early 20th century, Iowa State University botanist Louis Hermann Pammel (
 
 ## Related resources
 
-[A More Beautiful Iowa: Iowa's State Parks System digital exhibit](https://exhibits.lib.iastate.edu/iowa-state-parks)
+[A More Beautiful Iowa: Iowa's State Parks System digital exhibit](https://exhibits.lib.iastate.edu/iowa-state-parks){:target="_blank" rel="noopener"}

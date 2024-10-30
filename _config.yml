@@ -21,14 +21,14 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Iowa state parks collection
+title: Iowa State Parks Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: A selection of correspondence, photographs, maps, and other materials pertaining to the people and programs active in the Iowa state park movement.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "In the early 20th century, Iowa State University botanist Louis Hermann Pammel (1862-1931), ISU botanist Ada Hayden (1884-1950), and the university's Landscape Architecture Extension Program played key roles in advocating for and developing Iowa's state parks. This collection includes correspondence, photographs, maps, and other materials pertaining to the people and programs active in the state park movement."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; state parks; conservation; louis hermann pammel; ada hayden; recreation areas; landscape architecture; iowa state university; botany; environmentalism
+keywords: conservation; louis hermann pammel; ada hayden; recreation areas; landscape architecture; iowa state university; ledges state park; backbone state park;
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: emanderson811
 
