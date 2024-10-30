@@ -1,3 +1,8 @@
+# Changelog
+
+Deleted location and top subject field from the homepage (home-infographic.html). Deleted location field from config-nav.csv
+(Somsanith-ISU on 10/30/2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
