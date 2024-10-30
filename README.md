@@ -1,3 +1,7 @@
+# Changelog
+
+year-nav-increment set to 3 (owikle 2024-10-30)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
