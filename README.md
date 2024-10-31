@@ -1,3 +1,7 @@
+# Changelog
+
+Locations and Subjects removed from config-nav. Reason: only 1 term for reach. (lsulli12, October 31, 2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
