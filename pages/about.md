@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="brownwoodward1442" %} 
 
 {% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
@@ -18,4 +18,4 @@ Woodward H. Brown (1917-1980) was an active member of the Iowa Ornithologists' U
 
 ## Related resources
 
-[Avian Archives of Iowa Online (avIAn)](https://avian.lib.iastate.edu)
+[Avian Archives of Iowa Online (avIAn)](https://avian.lib.iastate.edu){:target="_blank" rel="noopener"}
