@@ -8,10 +8,10 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="davidsonjay0" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the collection
 
-
+Jay Brownlee Davidson was head of the agricultural engineering departments of University of California (1915-1919) and Iowa State College (1905-1915, 1919-1946). He is recognized as a pioneer in the development of agricultural engineering as a discipline. The collection consists of scrapbooks and other materials documenting his travels in China, the Soviet Union, and Europe.
