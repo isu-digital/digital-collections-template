@@ -9,6 +9,7 @@ credits: true
 ---
 
 {% include feature/jumbotron.html objectid="presidentsofisu273" %} 
+{% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
 ## About the collection
 
