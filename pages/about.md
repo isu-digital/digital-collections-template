@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="/assets/img/chevalier-handwriting.jpeg" %} 
 
-{% include feature/nav-menu.html sections="About the Collection" %}
+{% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
 ## About the Collection
 
@@ -19,3 +19,5 @@ This collection includes letters, primarily authored by Chevalier, on topics inc
 Also included is a printed address by Chevalier on the topic of foreign cattle.
 
 {% include feature/image.html objectid="/assets/img/michel_chevalier.jpg" alt="sketch of Michel Chevalier sitting at a table with his arm resting on a pile of books" caption="French economist Michel Chevalier (1806-1879)" %}
+
+
