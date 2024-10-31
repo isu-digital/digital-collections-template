@@ -14,4 +14,4 @@ credits: true
 
 ## About the collection
 
-
+Oral histories conducted as part of Honors Seminar 321J: Documenting the Past: An Introduction to Oral History.
