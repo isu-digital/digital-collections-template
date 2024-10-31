@@ -8,10 +8,10 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="adonijahwelch302" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the collection
 
-
+A collection of speeches and writings of the first president of the Iowa State Agriculture College (Iowa State University) from 1869-1883.
