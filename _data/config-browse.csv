@@ -7,11 +7,7 @@ corporate_contributor,,true,,
 subject,Subjects,true
 personal_name_subject,,true
 corporate_name_subject,,true
-<<<<<<< HEAD
 location,Location,true
-=======
-location,location,true
->>>>>>> main
 genre,Genre,true
 type,,,true
 objectid,,,true,Identifier
