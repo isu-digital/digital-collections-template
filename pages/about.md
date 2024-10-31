@@ -9,6 +9,7 @@ credits: true
 ---
 
 {% include feature/jumbotron.html objectid="dumont1746" %} 
+{% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
 ## About the collection
 
@@ -16,4 +17,4 @@ Philip A. DuMont was an ornithologist and naturalist who spent much of his early
 
 ## Related resources
 
-[Avian Archives of Iowa Online (avIAn)](https://avian.lib.iastate.edu)
+[Avian Archives of Iowa Online (avIAn)](https://avian.lib.iastate.edu){:target="_blank" rel="noopener"}
