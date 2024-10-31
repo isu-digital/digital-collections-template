@@ -8,6 +8,17 @@
 <div id="item-metadata">
     <dl>
         {% for f in fields %}{% if page[f.field] %}
+        {% if f.field == "relation" %}
+        <dt class="field">{{ f.display_name }}:</dt>
+        <dd class="field-value">
+            {% assign terms = page.relation | split: ";" %}
+            {% assign term_uris = page.relation_uri | split: ";" %}
+            {% for t in terms %}
+            {% assign index = forloop.index | minus: 1 %}
+            <a class="me-1" href="{{ term_uris[index] }}" target="_blank" rel="noopener">{{ t | strip }}</a>
+            {% endfor %}
+        </dd>
+        {% else %}
         <dt class="field">{{ f.display_name }}:</dt>
         <dd class="field-value">
             {% if f.browse_link == "true" %}
@@ -20,6 +31,6 @@
             {% else %}
             {{ page[f.field] | replace: '""','"' }}{% endif %}
         </dd>
-        {% endif %}{% endfor %}
+        {% endif %}{% endif %}{% endfor %}
     </dl>
 </div>
