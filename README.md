@@ -1,3 +1,9 @@
+# Changelog
+
+Changed theme.yml home-title-y-padding from 12em to 15em to who more of the image and home-banner-image-position from center to top. Removed subjects and locations from home-infographic.html as there was only 1 for each.
+
+(Somsanith-ISU on 10/31/2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
