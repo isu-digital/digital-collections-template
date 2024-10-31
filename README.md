@@ -1,4 +1,6 @@
 # Changelog
+* Removed location word cloud from home-infographic due to lack of terms
+(emanderson 10/31/2024)
 * Removed Locations word cloud from navigation due to lack of terms in metadata
 (emanderson811 10/29/2024)
 
