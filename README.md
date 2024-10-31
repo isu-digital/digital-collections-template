@@ -1,3 +1,9 @@
+# Changelog
+
+homepage banner moved from center to top to fit image better.
+
+(Somsanith-ISU on 10/31/2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
