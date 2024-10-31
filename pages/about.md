@@ -8,7 +8,8 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="rosene643" %} 
+{% include feature/jumbotron.html objectid="rosene643" %}
+{% include feature/nav-menu.html sections="About the collection;Related resources" %} 
 
 ## About the collection
 
@@ -16,4 +17,4 @@ Walter M. Rosene Sr. was born in Ogden, Iowa, in 1880. An avid birder, he helped
 
 ## Related resources
 
-[Avian Archives of Iowa Online (avIAn)](https://avian.lib.iastate.edu)
+[Avian Archives of Iowa Online (avIAn)](https://avian.lib.iastate.edu){:target="_blank" rel="noopener"}
