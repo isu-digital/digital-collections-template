@@ -8,10 +8,11 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/lectures/small/lecture_sm.jpg" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection;" %}
 
 ## About the collection
 
+The Iowa State Lectures Series, a collaborative effort between the Student Government and the Office of the Provost, brings to campus a broad spectrum of talks, political debates, academic forums, and cultural events. The online collection consists of more than 1,000 audio recordings dating back to the 1970s. Note: University Library Digital Collections contains records for the full Lectures Series collection (https://n2t.net/ark:/87292/w91v5bm0b), and each record includes a link to the audio recording on the Iowa State University Aviary website. However, due to various access restrictions, the collection is split into three sets within the Aviary website. For information about these restrictions, see the Usage Rights note in each record.
 
