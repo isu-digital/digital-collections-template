@@ -8,10 +8,8 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
-
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/jumbotron.html objectid="americanstatisticalassociation643" %} 
 
 ## About the collection
 
-
+The American Statistical Association is a professional society interested in the theory, methodology, and application of statistics to all fields of human endeavor. Founded as a regional group in Boston in 1839, the ASA eventually became a large national organization and the publisher of several statistical journals. The collection comprises records, correspondence, and reports of the association, including its founding documents.
