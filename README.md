@@ -1,3 +1,6 @@
+# Changelog
+Locations removed from config-nav.csv as only 1 location (lsulli12, 11/1/2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
