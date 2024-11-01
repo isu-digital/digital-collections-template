@@ -18,4 +18,4 @@ From its founding, Iowa State allowed women to enroll. However, for much of the 
 
 ## Related Resources
 
-This digital collection was created along with a digital exhibit, [Women’s Experience at Iowa State from 1960-1979](https://exhibits.lib.iastate.edu/womens-experience-at-iowa-state-from-1960-1979){:target="_blank" rel="noopener"}
+This digital collection was created as a student project along with a digital exhibit, [Women’s Experience at Iowa State from 1960-1979](https://exhibits.lib.iastate.edu/womens-experience-at-iowa-state-from-1960-1979){:target="_blank" rel="noopener"}
