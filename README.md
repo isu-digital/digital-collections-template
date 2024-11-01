@@ -1,3 +1,7 @@
+# Changelog
+
+* Locations page was disabled and removed from the home infographic because there is only one location for the entire collection (mrcummings on 11/01/2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
