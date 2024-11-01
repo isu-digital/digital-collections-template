@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://isuu00001library102stg.z21.web.core.windows.net
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/demo
+baseurl: /collections/womensexperience
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -23,12 +23,12 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: Women's Experience at Iowa State from 1960-1979 Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Selected documents revealing....
+tagline: A curated collection of documents providing insights into campus life and associated activism
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "This collection documents some of the experiences of women at Iowa State between 1960 and 1979, including campus policies and culture, activism, and a discrimination lawsuit filed against the university by the National Organization of Women."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; midwest
+keywords: student movements; activism; sex discrimination against women; feminism; political activity
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: lsulli12
 
