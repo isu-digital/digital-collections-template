@@ -1,5 +1,5 @@
 # Changelog
-Locations removed from config-nav.csv (lsulli12, 11/1/12024)
+Locations removed from config-nav.csv and homepage featured terms as 0 included (lsulli12, 11/1/12024)
 
 # CollectionBuilder-CSV
 
