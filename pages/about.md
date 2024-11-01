@@ -9,7 +9,7 @@ accessibility: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/wcoh/small/wise_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/womensexperience/small/rs007-004-012b017i003_sm.jpg" %} 
 
 {% include feature/nav-menu.html sections="About the collection" %}
 
