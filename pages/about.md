@@ -9,7 +9,7 @@ credits: true
 ---
 
 {% include feature/jumbotron.html objectid="universityphotographs343" %} 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the collection
 
