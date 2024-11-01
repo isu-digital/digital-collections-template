@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://isuu00001library102stg.z21.web.core.windows.net
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/demo
+baseurl: /collections/isufootballprograms
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -30,19 +30,19 @@ description: "CollectionBuilder-CSV is a template for creating digital collectio
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: iowa; history; midwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: lsulli12
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-metadata
+metadata: isufootballprograms
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: demo-metadata
-  - data: 'demo-metadata-iiif'
+  - data: isufootballprograms
+  - data: 'isufootballprograms-iiif'
     template: 'manifest'
     template_override: true
     name: 'objectid'
