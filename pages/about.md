@@ -10,6 +10,8 @@ credits: true
 
 {% include feature/jumbotron.html objectid="mezvinsky41" %} 
 
+{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+
 ## About the Collection
 
 Edward M. Mezvinsky served in the Iowa House of Representatives (1969-1971), in the U.S. House of Representatives for Iowa's first district (1973-1977), and as U.S. representative to the United Nations Commission on Human Rights (1977-1979).
@@ -18,4 +20,5 @@ This collection consists of photographs, speeches, correspondence, reports, vide
 ## Related Resources
 The contents of this digital collection were selected from the Edward M. Mezvinsky papers. The [finding aid](https://n2t.net/ark:/87292/w9gt9b) provides information about the papers.
 
-The [Edward Mezvinsky online exhibit](https://n2t.net/ark:/87292/w9xw4823t) provides additional information on the life and political career of Edward Mezvinsky. 
+The [Edward Mezvinsky online exhibit](https://n2t.net/ark:/87292/w9xw4823t){:target="_blank"
+rel="noopener"} provides additional information on the life and political career of Edward Mezvinsky. 
