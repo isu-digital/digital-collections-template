@@ -2,6 +2,10 @@
 
 Withing config-nav.csv subjects and locations removed. Reason: 1 subject, 0 locations. (lsulli12, 10/29/2024)
 
+Locations removed as featured term from homepage (home-infographic.html). Limited controlled vocab across collection, so did not replace with an alternate. (lsulli12, 11/5/2024)
+
+Home page banner padding reduced from default 12 (home-title-y-padding now 8em) (lsulli12, 11/5/2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
