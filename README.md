@@ -1,3 +1,6 @@
+# Changelog
+Homepage banner size reduced from default 12em to 8em within theme.yml home-title-y-padding (lsulli12, 11/5/2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
