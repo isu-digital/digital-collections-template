@@ -4,13 +4,14 @@ layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
+accessibility: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
 {% include feature/jumbotron.html objectid="lgbt41" %} 
 
-{% include feature/nav-menu.html sections="About the collection; Related resources" %}
+{% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
 ## About the collection
 
