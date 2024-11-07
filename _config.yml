@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://isuu00001library102stg.z21.web.core.windows.net
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/demo
+baseurl: /collections/test
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -37,12 +37,12 @@ author: CollectionBuilder
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-metadata
+metadata: harker-dates
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: demo-metadata
-  - data: 'demo-metadata-iiif'
+  - data: harker-dates
+  - data: 'harker-dates-iiif'
     template: 'manifest'
     template_override: true
     name: 'objectid'
