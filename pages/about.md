@@ -9,11 +9,9 @@ accessibility: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="civilwar1794" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the collection
-
-
-## Related resources
+More than 76,000 Iowans fought in the Civil War. This collection includes written accounts by a few of those soldiers that document life in camp, campaigns, exploits including a prison escape, and their thoughts on the war.
