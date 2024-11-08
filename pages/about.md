@@ -9,11 +9,9 @@ accessibility: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="lippisch73" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the collection
-
-
-## Related resources
+Alexander Lippisch Digital Collection contains the technical designs and conceptual drawings for Lippisch's aeronautical designs including wingless aircraft, delta-wings, and aerodynes, as well as numerous photographic images of delta wings.
