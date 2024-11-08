@@ -21,14 +21,14 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Civil War reminiscences
+title: Civil War Reminiscences
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: A selection of diaries, written accounts, and other materials
+tagline: A selection of diaries and personal narratives
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "More than 76,000 Iowans fought in the Civil War. This collection includes written accounts by a few of those soldiers that document life in camp, campaigns, exploits including a prison escape, and their thoughts on the war."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; midwest
+keywords: iowa; american civil war; 1860s
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: lsulli12
 
