@@ -9,11 +9,10 @@ accessibility: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="objects/banner-voces.jpg" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the collection
 
-
-## Related resources
+Oral histories conducted by the U.S. Latino/a Studies Program Oral History Project, focused on Latinx in Iowa, and as part of a consortium with the Voces Project at the University of Texas at Austin exploring the stories of the Latina/o community affected by the coronavirus.
