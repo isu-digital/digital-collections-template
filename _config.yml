@@ -23,12 +23,12 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: Paul L. Errington Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: This collection consists of correspondance between Paul Errington and others
+tagline: A selection of Paul Errington's correspondence with Aldo Leopold and other colleagues
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Paul Errington was a professor of zoology at Iowa State from 1932 to 1962. He established and led the first Cooperative Wildlife Research Unit in the United States. His professional area of expertise included vertebrate ecology and population dynamics. This collection includes correspondence between Errington and various colleagues, primarily Aldo Leopold, discussing research, publications, employment, and other topics."
+description: "This collection includes correspondence between Errington and various colleagues, primarily Aldo Leopold, discussing research, publications, employment, and other topics."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; midwest
+keywords: iowa; aldo leopold; conservation; wetlands
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Somsanith-ISU
 
