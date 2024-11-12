@@ -28,7 +28,7 @@ tagline: Interviews with Latinx in Iowa
 # this description might appear in search result lists, keep around 160 characters max
 description: "Oral histories conducted by the U.S. Latino/a Studies Program Oral History Project, focused on Latinx in Iowa, and as part of a consortium with the Voces Project at the University of Texas at Austin exploring the stories of the Latina/o community affected by the coronavirus."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; covid19
+keywords: covid19; iowa; latinx community; hispanic
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: lsulli12
 
@@ -41,7 +41,7 @@ metadata: voces
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: voces-metadata
+  - data: voces
   - data: 'voces-iiif'
     template: 'manifest'
     template_override: true
