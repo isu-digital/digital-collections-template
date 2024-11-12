@@ -1,3 +1,7 @@
+# Changelog
+featured-image (banner used within Aviary) added to objects folder (lsulli12, 11/12/2024)
+Locations removed from config-nav.csv (lsulli12, 11/12/2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
