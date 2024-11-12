@@ -23,10 +23,10 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: American Statistical Association Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Records, correspondence, founding documents, and reports of the American Statistical Association
+tagline: A selection of records from the American Statistical Association records
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "The American Statistical Association is a professional society interested in the theory, methodology, and application of statistics to all fields of human endeavor. Founded as a regional group in Boston in 1839, the ASA eventually became a large national organization and the publisher of several statistical journals. The collection comprises records, correspondence, and reports of the association, including its founding documents."
+description: "The collection comprises records, correspondence, and reports of the association, including its founding documents."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: statistics; american statistical association; professional societies; historical records
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
