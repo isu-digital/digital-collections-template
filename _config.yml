@@ -23,12 +23,12 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: Women in Chemistry Oral Histories
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Interviews of women chemists in diverse specialties from the post-World War II era
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "Collection of oral histories sponsored by the Archives of Women in Science and Engineering (Iowa State University Library) and focused on women who have devoted their careers to the study of chemistry in the post-World War II era."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; midwest
+keywords: iowa state university; women scientists; women chemists
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: lsulli12
 
