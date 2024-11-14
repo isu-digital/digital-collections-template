@@ -23,12 +23,12 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: Philip H. Elwood Films
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Silent films from across the world by an Iowa State landscape architecture professor
+tagline: Silent films by an Iowa State landscape architecture professor
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "This collection includes films of student tours led by landscape architect Professor Philip Elwood between 1927 and 1931 through various parts of the United States, Egypt, Palestine, Hong Kong, China, and Japan."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa state university; study abroad; midwest
+keywords: iowa state university faculty; study abroad; travel; gardens; architecture
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: lsulli12
 
