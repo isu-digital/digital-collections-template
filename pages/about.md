@@ -9,11 +9,9 @@ accessibility: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="vetmed1151" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection;" %}
 
 ## About the collection
-
-
-## Related resources
+This collection consists of an oral history interview with William P. Switzer, professor in the Iowa State University College of Veterinary Medicine, and photographs related to the College of Veterinary Medicine.
