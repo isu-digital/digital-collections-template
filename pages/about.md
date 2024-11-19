@@ -9,11 +9,10 @@ accessibility: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="aaap27" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection;" %}
 
 ## About the collection
 
-
-## Related resources
+The American Association of Avian Pathologists is a nonprofit organization founded in 1958 to promote avian medicine, stimulate scientific progress in avian pathology, and encourage training and continuing education in diseases of poultry, wild birds, and pet birds. The collection includes reports, newsletters, programs, periodicals, correspondence, and other records of the association.
