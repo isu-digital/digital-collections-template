@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://isuu00001library102stg.z21.web.core.windows.net
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/demo
+baseurl: /collections/curtisswright
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
