@@ -1,3 +1,7 @@
+# Changelog
+mrcummings 11/22/2024
+Removed Locations from home-infographic.html and the navbar because Story County is the only location in this collection. 
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
