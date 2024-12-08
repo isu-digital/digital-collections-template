@@ -11,3 +11,8 @@ h1 {
     border-top-left-radius: .25rem !important;
     border-bottom-left-radius: .25rem !important;
 }
+
+.custom-download-dropdown {
+    max-height: 500px; /* Set the maximum height */
+    overflow-y: auto;  /* Enable vertical scrolling */
+}
