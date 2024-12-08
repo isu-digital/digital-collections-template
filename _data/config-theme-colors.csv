@@ -4,7 +4,7 @@ secondary,
 success,
 info,#7A99AC 
 warning,
-danger,
+danger,#7A99AC 
 light,
 dark,
 cardinal,#C8102E
