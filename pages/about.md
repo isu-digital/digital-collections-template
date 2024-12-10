@@ -29,5 +29,3 @@ Portions of this digital collection are public domain, portions are owned by Iow
 [Fifty Years of Cy (Digital Exhibit)](https://n2t.net/ark:/87292/w97m0449g){:target="_blank" rel="noopener"}
 
 [Homecoming at Iowa State (Digital Exhibit)](https://n2t.net/ark:/87292/w9t43j79c){:target="_blank" rel="noopener"}
-
-## Related resources
