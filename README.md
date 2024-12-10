@@ -1,3 +1,7 @@
+# Changelog
+
+Within item/home-infographic.html page: index/featured-terms.html field="genre" removed as none exist (LS, 12/10/2024) 
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
