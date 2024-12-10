@@ -6,7 +6,7 @@
    "type": "Manifest",
    "label": {
        "{{ page.language | default: 'eng' }}": [
-       "{{ page.title }}"
+       {{ page.title | jsonify }}
        ]
    },
    "attribution": "{{ page.contributing_institution }}",
