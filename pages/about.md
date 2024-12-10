@@ -16,5 +16,3 @@ accessibility: true
 ## About the collection
 
 These papers contain letters and journals written by Mary Newbury Adams (1837-1901), who was an instrumental early supporter of the suffrage movement.
-
-## Related resources
