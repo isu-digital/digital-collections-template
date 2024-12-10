@@ -4,6 +4,7 @@ layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
+accessibility: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
@@ -29,3 +30,4 @@ Portions of this digital collection are public domain, portions are owned by Iow
 
 [Homecoming at Iowa State (Digital Exhibit)](https://n2t.net/ark:/87292/w9t43j79c){:target="_blank" rel="noopener"}
 
+## Related resources
