@@ -21,7 +21,8 @@ The digital collection contains at least one football program from each year (18
 
 Portions of this digital collection are public domain, portions are owned by Iowa State, and portions may be protected by U. S. copyright and/or related rights. Digital access to those materials has been provided by Iowa State University for nonprofit educational or scholarship purposes in accordance with section 107 of the U.S. Copyright code. The rights status is provided on each digital object.
 
-# Related resources
+
+## Related resources
 [Jack Trice collection (Digital Collection)](https://n2t.net/ark:/87292/w9n872z9b){:target="_blank" rel="noopener"}
 
 [Fifty Years of Cy (Digital Exhibit)](https://n2t.net/ark:/87292/w97m0449g){:target="_blank" rel="noopener"}
