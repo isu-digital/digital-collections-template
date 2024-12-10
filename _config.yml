@@ -23,10 +23,10 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: Dwight Ink Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Selected from the Dwight Ink Papers
+tagline: Selected materials from the Dwight Ink Papers
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This collection includes correspondence, manuscripts, reports, photographs, and other materials documenting Ink's career and related professional activities."
+description: "Dwight Ink was born in Des Moines, Iowa, in 1922 and received his B.S. in government and history from Iowa State University in 1947. Ink's career in federal government management began at the U.S. Atomic Energy Commission (1951-1969) and spanned seven consecutive presidential administrations. This collection includes correspondence, manuscripts, reports, photographs, and other materials documenting Ink's career and related professional activities."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: iowa state university alumni; politics and government; radioactive fallout; alaska earthquake; disaster relief; education
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name

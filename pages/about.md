@@ -14,4 +14,4 @@ accessibility: true
 {% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the collection
- Dwight Ink was born in Des Moines, Iowa, in 1922 and received his B.S. in government and history from Iowa State in 1947. Ink's career in federal government management began at the U.S. Atomic Energy Commission (1951-1969) and spanned seven consecutive presidential administrations. This collection includes correspondence, manuscripts, reports, photographs, and other materials documenting Ink's career and related professional activities.
+ Dwight Ink was born in Des Moines, Iowa, in 1922 and received his B.S. in government and history from Iowa State University in 1947. Ink's career in federal government management began at the U.S. Atomic Energy Commission (1951-1969) and spanned seven consecutive presidential administrations. This collection includes correspondence, manuscripts, reports, photographs, and other materials documenting Ink's career and related professional activities.
