@@ -10,8 +10,8 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection;" %}
 
 ## About the collection
-
+Iowa Agricultural College (now Iowa State University) joined its first intercollegiate athletic conference in 1894 and currently plays in the Big 12 Conference. This collection contains programs sold during Iowa State football games from the 1890s to the 2010s.
 
