@@ -1,3 +1,7 @@
+# Changelog
+
+Removed portion of description dealing with photographs of blackface from the description on the Home page. The full description remains on the About page.
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.

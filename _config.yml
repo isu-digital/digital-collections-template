@@ -23,10 +23,10 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: Work Projects Administration (Iowa) Photographs
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Photographs and brochures relating to the WPA's work in Iowa, 1933-1940
+tagline: Photographs and brochures documenting the WPA's work in Iowa, 1933-1940
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This digital collection contains photographs of Works Progress Administration, later Work Projects Administration (WPA), projects done in Iowa. Material relating to the Iowa WPA, including brochures, statistical graphs, and flyers are also included. Note: Three photographs containing racist imagery (blackface) were not included in the digital collection. The physical items, in box 7, folder 3, can be seen in person in the Special Collections and University Archives reading room, or by contacting archives@iastate.edu to request individual digital copies."
+description: "This digital collection contains photographs of Works Progress Administration, later Work Projects Administration (WPA), projects done in Iowa. Material relating to the Iowa WPA, including brochures, statistical graphs, and flyers are also included."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: swimming pools; parks; school buildings; gymnasiums; exhibitions
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
