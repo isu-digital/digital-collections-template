@@ -4,13 +4,14 @@ layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
+accessibility: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
 {% include feature/jumbotron.html objectid="jacktrice39" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the collection
 
@@ -31,5 +32,3 @@ However, an Iowa State University ad hoc committee voted to advise President Rob
 In 1984, the stadium was named Cyclone Stadium and the playing field was named Jack Trice Field.
 The Government of Student Body, wanting to do more to honor Trice, raised money to erect a statue of Trice in 1987.
 Due to the persistence of the students, alumni, faculty and staff, and other supporters, the stadium was finally named Jack Trice Stadium in 1997.
-
-
