@@ -7,13 +7,17 @@ layout: item/item-page-base
 <div class="card mb-4 text-center">
     <div class="card-body">
 
-        {% include item/audio-player.html %}
+        {% if page.object_location contains 'aviaryplatform' or page.object_location contains 'ark' %}
+            {% include item/aviary-embed.html %}
+        {% else %}
+            {% include item/audio-player.html %}
 
         <div class="mt-2">
 
             {% include item/item-thumb.html %}
         
         </div>
+        {% endif %}
         
         <div class="mt-2">
 
