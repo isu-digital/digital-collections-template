@@ -4,6 +4,7 @@ layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
+accessibility: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
@@ -17,3 +18,4 @@ credits: true
 Students have been living, working, and learning on the campus of Iowa State University for over 150 years. This collection includes a variety of objects from 1858 to the 2000s that explore student life at ISU from its founding to the present.
 
 
+## Related resources
