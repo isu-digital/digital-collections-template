@@ -6,4 +6,5 @@ layout: default
 {{ content }}
 </div>
 
+{% if page.accessibility == true %}{% include accessibility.html %}{% endif %}
 {% if page.credits == true %}{% include cb/credits.html %}{% endif %}
