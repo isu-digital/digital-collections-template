@@ -9,9 +9,9 @@ accessibility: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="nfofilms3" %} 
+{% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/nfofilms/small/nfofilms59_sm.jpg" %} 
 
-{% include feature/nav-menu.html sections="About the Collection;Related Resources" %}
+{% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
 ## About the collection
 
