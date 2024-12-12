@@ -1,6 +1,8 @@
 # Changelog
 
-Removed portion of description dealing with photographs of blackface from the description on the Home page. The full description remains on the About page.
+Removed portion of description dealing with photographs of blackface from the description on the Home page. The full description remains on the About page. (mrcummmings, week of 10/25/2024)
+
+Within theme.yml changed year-nav-increment to 1 (lsulli12, 2024/12/12)
 
 # CollectionBuilder-CSV
 
