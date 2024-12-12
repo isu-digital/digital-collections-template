@@ -8,7 +8,7 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://digitalcollections.lib.iastate.edu/
+url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: /collections/isufootballprograms
 # location of code, the full url to your github repository
@@ -74,7 +74,7 @@ organization-logo-nav: https://isuu00001library102stg.z21.web.core.windows.net/a
 # (this is done automatically by gh-pages build)
 #
 # ignore stuff
-exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md]
+exclude: [docs/, Rakefile, README.md, LICENSE, CODEOWNERS, utilities/]
 # compress CSS output
 sass:
   style: compressed
