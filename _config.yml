@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/americanstatisticalassociation
+baseurl: /americanstatisticalassociation
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -23,7 +23,7 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: American Statistical Association Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: A selection of records from the American Statistical Association records
+tagline: A selection of records from the American Statistical Association
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "The collection comprises records, correspondence, and reports of the association, including its founding documents."

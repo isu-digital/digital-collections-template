@@ -10,6 +10,7 @@ accessibility: true
 ---
 
 {% include feature/jumbotron.html objectid="americanstatisticalassociation643" %} 
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the collection
 
