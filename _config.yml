@@ -8,11 +8,14 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://isuu00001library102stg.z21.web.core.windows.net/ # https://digitalcollections.iastatedigital.org
+url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl:
+baseurl: /mezvinsky
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
+
+# url to the shared assets folder on mainweb
+digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 
 ##########
 # SITE SETTINGS
@@ -25,7 +28,7 @@ tagline: Selected from the Edward M. Mezvinsky Papers
 # this description might appear in search result lists, keep around 160 characters max
 description: "This collection consists of photographs, speeches, correspondence, reports, videos, and other records of Edward M. Mezvinsky's political career."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: united states government;history
+keywords: united states government; history
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: owikle
 
@@ -37,23 +40,25 @@ author: owikle
 metadata: mezvinsky
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
-# page_gen:
-#   - data: 'demo-metadata'
-#     template: 'item'
-#     name: 'objectid'
-#     dir: 'items'
-#     extension: 'html' 
-#     filter: 'objectid'  
+page_gen:
+  - data: demo-metadata
+  - data: 'demo-metadata-iiif'
+    template: 'manifest'
+    template_override: true
+    name: 'objectid'
+    dir: 'manifests'
+    extension: 'json' 
+    filter: 'objectid'
 
 ##########
 # Site/Organization Branding 
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: "Iowa State University Library"
-organization-link: https://lib.iastate.edu/
-organization-logo-banner: https://digitalcollections.iastatedigital.org/assets/media/ISU_Library_Center_Red.png
-organization-logo-nav: https://digitalcollections.iastatedigital.org/assets/media/ISU_Library_Center_White.png
+organization-name: "Iowa State University Library Digital Collections"
+organization-link: https://www.lib.iastate.edu/
+organization-logo-banner: https://isuu00001library102stg.z21.web.core.windows.net/assets/media/dclogo_edited.png
+organization-logo-nav: https://isuu00001library102stg.z21.web.core.windows.net/assets/media/ISU_Library_Center_White.png
 
 ##########
 # ROBOTS EXCLUDE
@@ -69,7 +74,7 @@ noindex: true
 # (this is done automatically by gh-pages build)
 #
 # ignore stuff
-exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md]
+exclude: [docs/, Rakefile, rakelib/, README.md, LICENSE, CODEOWNERS, utilities/, objects/]
 # compress CSS output
 sass:
   style: compressed

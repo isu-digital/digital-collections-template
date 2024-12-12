@@ -4,13 +4,14 @@ layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
+accessibility: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
 {% include feature/jumbotron.html objectid="mezvinsky41" %} 
 
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
+{% include feature/nav-menu.html sections="About the collection;Related Resources" %}
 
 ## About the Collection
 
@@ -21,4 +22,4 @@ This collection consists of photographs, speeches, correspondence, reports, vide
 The contents of this digital collection were selected from the Edward M. Mezvinsky papers. The [finding aid](https://n2t.net/ark:/87292/w9gt9b) provides information about the papers.
 
 The [Edward Mezvinsky online exhibit](https://n2t.net/ark:/87292/w9xw4823t){:target="_blank"
-rel="noopener"} provides additional information on the life and political career of Edward Mezvinsky. 
+rel="noopener"} provides additional information on the life and political career of Edward Mezvinsky.

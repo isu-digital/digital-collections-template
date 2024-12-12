@@ -6,5 +6,5 @@
 
 <a data-bs-toggle="modal" data-bs-target="#{{ page.objectid | slugify }}Modal" title="{{ page.title | escape }}" href="#">
     <img src="{{ page.image_small | relative_url }}" alt="{{ page.image_alt_text | default: page.description | default: page.title | escape }}" class="img-fluid">
-    <div><small class="text-dark">Click to view full item</small></div>
+    <div><small class="text-dark">Select to view full item</small></div>
 </a>

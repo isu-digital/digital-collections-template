@@ -18,11 +18,11 @@ layout: page
 
     {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
 
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
+    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary-blue-dark" %}
 
-    {% include index/featured-terms.html field="genre" title="Material Types" btn-color="primary" %}
+    {% include index/featured-terms.html field="genre" title="Genre" btn-color="secondary-blue" %}
     
-    {% include index/objects.html %}
+    {% include index/objects.html object_field="format" others=true total=true %}
 
   </div>
 

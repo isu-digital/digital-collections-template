@@ -1,26 +1,43 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-personal_creator,Creator,true,,DCTERMS.creator,creator
-corporate_creator,Organizational Creator,true,,,
-personal_contributor,Personal Contributor,true,,,
-corporate_contributor, Organizational Contributor,true,,,
+personal_creator,Creator (Person),true,,DCTERMS.creator,creator
+corporate_creator,Creator (Organization),true,,DCTERMS.creator,
+interviewee,Interviewee,true,,DCTERMS.contributor,
+interviewer,Interviewer,true,,DCTERMS.contributor,
 date,Date Created,,,DCTERMS.date,dateCreated
-chronological_subject,Chronolological Subject,true
+chronological_subject,Time Period,true,,DCTERMS.subject,
 description,Description,,,DCTERMS.description,description
-extent,Extent,,,,
-subject,Subjects,true,,DCTERMS.subject,keywords
-personal_name_subject,Personal Name Subject,true
-corporate_name_subject,Corporate Name Subject,true
-location,Places,true,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-genre,Material Type,true
+subject,Subject (Topic),true,,DCTERMS.subject,keywords
+personal_name_subject,Subject (Person),true,,DCTERMS.subject,
+corporate_name_subject,Subject (Organization),true,,DCTERMS.subject,
+personal_contributor,Contributor (Person),true,,DCTERMS.contributor,
+corporate_contributor,Contributor (Organization),true,,DCTERMS.contributor,
+location,Location,true,,DCTERMS.coverage,contentLocation
+latitude,Latitude,,,DCTERMS.spatial,
+longitude,Longitude,,,DCTERMS.spatial,
+language,Language,,,DCTERMS.language,
+archival_collection,Source,true,,DCTERMS.relation,
+other_collection,Source,true,,DCTERMS.relation,
+call_number,Call Number,,,DCTERMS.relation,
+archival_series_title,Archival Series,true,,DCTERMS.relation,
+box,Box,,,DCTERMS.relation,
+folder_title,Folder Title,,,DCTERMS.relation,
+folder_num,Folder Number,,,DCTERMS.relation,
+finding_aid_ark,Finding Aid Permalink,,true,DCTERMS.relation,
+contributing_institution,Contributing Institution,,,DCTERMS.publisher,
+publisher,Publisher,true,,DCTERMS.publisher,
+extent,Extent,,,DCTERMS.extent,
+medium,Medium,true,,DCTERMS.medium,
+genre,Genre,true,,DCTERMS.type,
 type,Type,true,,DCTERMS.type,
-format,Format,,,,encodingFormat
-archival_collection,Source,,,,
-archival_call_number,Archival Call Number,,,,
-finding_aid_ark,Finding Aid Permalink (ARK),,true,,
-objectid,Local Identifier,,,,
-ark,Item Permalink,,,,
-relation_uri,Permalinks for Digital Collection and Digital Exhibit,,,,
-rights_management_valueURI,,,,DCTERMS.rights,license
+format,Format,,,DCTERMS.format,encodingFormat
+digital_collection,Digital Collection Title,,,DCTERMS.relation,
+digital_collection_ark,Digital Collection Permalink,,true,DCTERMS.relation,
+relation,Related Resource,,,DCTERMS.relation,
+avian_id,Avian Identifier,,,DCTERMS.identifier,
+objectid,Identifier,,,DCTERMS.identifier,
+filename,Filename,,,DCTERMS.identifier,
+ark,Item Permalink,,true,DCTERMS.identifier,
+rights,,,,DCTERMS.rights,
+rightsstatement,,,true,DCTERMS.rights,license
+disclaimer,Disclaimer,,,DCTERMS.description,
