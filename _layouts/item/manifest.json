@@ -36,7 +36,7 @@
             "width": 1000,
             "label": {
               "{{ page.language }}": [
-                "{{ page.title }}"
+                {{ page.title | jsonify }}
               ]
             }{%- if page.image_thumb -%},
             "thumbnail": [
@@ -79,7 +79,7 @@
             "width": 1000,
             "label": {
             "{{ page.language }}": [
-                "{{ c.title }}"
+                {{ c.title | jsonify }}
             ]
             }{%- if c.image_thumb -%},
             "thumbnail": [
