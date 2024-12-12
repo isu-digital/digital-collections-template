@@ -8,7 +8,7 @@
 <div id="item-metadata">
     <dl>
         {% for f in fields %}{% if page[f.field] %}
-        {% if f.field == "relation" %}
+        {% if f.field == "relation" and page.relation_uri %}
         <dt class="field">{{ f.display_name }}:</dt>
         <dd class="field-value">
             {% assign terms = page.relation | split: ";" %}
