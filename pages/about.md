@@ -17,5 +17,7 @@ accessibility: true
 
 Selected items from the George W. Snedecor Papers.
 
+George W. Snedecor, instrumental in bringing statistics to Iowa State, helped form the Statistical Laboratory (1933) and the Dept. of Statistics (1947).
+
 {% include feature/image.html objectid="snedecor22" width="75" %} 
 
