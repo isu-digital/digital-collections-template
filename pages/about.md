@@ -9,19 +9,10 @@ accessibility: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-<<<<<<< HEAD
 {% include feature/jumbotron.html objectid="nfofilms3" %} 
-=======
-{% include feature/jumbotron.html objectid="https://isuu00001library102stg.z21.web.core.windows.net/assets/media/iowa_state_university_library_south_entrance.jpg" %} 
->>>>>>> main
 
 {% include feature/nav-menu.html sections="About the Collection" %}
 
 ## About the collection
 
-<<<<<<< HEAD
 The National Farmers Organization (NFO) was founded in 1955 to combat low prices farmers received from food processors. Originally headquartered in Corning, Iowa, the NFO now has headquarters in Ames, Iowa. The collection includes films on various farming topics with an emphasis on political and economic issues.
-=======
-
-## Related resources
->>>>>>> main
