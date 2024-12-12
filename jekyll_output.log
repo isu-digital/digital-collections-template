@@ -1,0 +1,1224 @@
+C:/Users/mrc2/.local/share/gem/ruby/3.3.0/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:22: warning: base64 was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 3.4.0.
+You can add base64 to your Gemfile or gemspec to silence this warning.
+Configuration file: C:/Users/mrc2/Documents/GitHub/digital-collections-template/_config.yml
+            Source: C:/Users/mrc2/Documents/GitHub/digital-collections-template
+       Destination: C:/Users/mrc2/Documents/GitHub/digital-collections-template/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+130 │ @import "theme-colors", "theme-utilities";
+    │         ^^^^^^^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+130 │ @import "theme-colors", "theme-utilities";
+    │                         ^^^^^^^^^^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:25  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │         ^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:9  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │                 ^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:17  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │                          ^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:26  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+80  │   $theme-colors: map-merge(
+    │ ┌────────────────^
+81  │ │   (
+82  │ │     
+83  │ │     "primary": $primary,
+84  │ │     
+85  │ │     "info": $info,
+86  │ │     
+87  │ │     "cardinal": $cardinal,
+88  │ │     
+89  │ │     "gold": $gold,
+90  │ │     
+91  │ │     "green-dark": $green-dark,
+92  │ │     
+93  │ │     "green": $green,
+94  │ │     
+95  │ │     "green-light": $green-light,
+96  │ │     
+97  │ │     "secondary-green-dark": $secondary-green-dark,
+98  │ │     
+99  │ │     "secondary-green": $secondary-green,
+100 │ │     
+101 │ │     "secondary-green-light": $secondary-green-light,
+102 │ │     
+103 │ │     "secondary-blue-dark": $secondary-blue-dark,
+104 │ │     
+105 │ │     "secondary-blue": $secondary-blue,
+106 │ │     
+107 │ │     "secondary-blue-light": $secondary-blue-light,
+108 │ │     
+109 │ │     "secondary-red-dark": $secondary-red-dark,
+110 │ │     
+111 │ │     "secondary-red": $secondary-red,
+112 │ │     
+113 │ │     "secondary-orange": $secondary-orange,
+114 │ │     
+115 │ │     "secondary-brown": $secondary-brown,
+116 │ │     
+117 │ │     "secondary-brown-light": $secondary-brown-light,
+118 │ │     
+119 │ │     "secondary-cream": $secondary-cream,
+120 │ │     
+121 │ │     "secondary-grey-dark": $secondary-grey-dark,
+122 │ │     
+123 │ │     "secondary-grey": $secondary-grey,
+124 │ │     
+125 │ │     "secondary-grey-light": $secondary-grey-light
+126 │ │     
+127 │ │   ),
+128 │ │   $theme-colors
+129 │ │ );
+    │ └─^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 80:16  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.type-of instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+255 │     @if type-of($value) == color {
+    │         ^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 255:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.red instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+126 │         "r": red($color),
+    │              ^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 126:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+126 │         "r": red($color),
+    │              ^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 126:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.green instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+127 │         "g": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 127:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+127 │         "g": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 127:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.blue instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+128 │         "b": blue($color)
+    │              ^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 128:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+128 │         "b": blue($color)
+    │              ^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 128:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -47.5155279503%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+231 │             color: darken($color, 15%) !important;
+    │                    ^^^^^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 231:20                                                             theme-text()
+    _theme-colors.scss 264:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -31.6770186335%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+245 │             background-color: darken($color, 10%) !important;
+    │                               ^^^^^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 245:31                                                             theme-bg()
+    _theme-colors.scss 266:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+WARNING: 53 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    done in 3.387 seconds.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for 'C:/Users/mrc2/Documents/GitHub/digital-collections-template'
+    Server address: http://127.0.0.1:4000/collections/weareisu/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2024-12-12 13:07:23
+                    jekyll_output.log
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+130 │ @import "theme-colors", "theme-utilities";
+    │         ^^^^^^^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+130 │ @import "theme-colors", "theme-utilities";
+    │                         ^^^^^^^^^^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:25  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │         ^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:9  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │                 ^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:17  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │                          ^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:26  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+80  │   $theme-colors: map-merge(
+    │ ┌────────────────^
+81  │ │   (
+82  │ │     
+83  │ │     "primary": $primary,
+84  │ │     
+85  │ │     "info": $info,
+86  │ │     
+87  │ │     "cardinal": $cardinal,
+88  │ │     
+89  │ │     "gold": $gold,
+90  │ │     
+91  │ │     "green-dark": $green-dark,
+92  │ │     
+93  │ │     "green": $green,
+94  │ │     
+95  │ │     "green-light": $green-light,
+96  │ │     
+97  │ │     "secondary-green-dark": $secondary-green-dark,
+98  │ │     
+99  │ │     "secondary-green": $secondary-green,
+100 │ │     
+101 │ │     "secondary-green-light": $secondary-green-light,
+102 │ │     
+103 │ │     "secondary-blue-dark": $secondary-blue-dark,
+104 │ │     
+105 │ │     "secondary-blue": $secondary-blue,
+106 │ │     
+107 │ │     "secondary-blue-light": $secondary-blue-light,
+108 │ │     
+109 │ │     "secondary-red-dark": $secondary-red-dark,
+110 │ │     
+111 │ │     "secondary-red": $secondary-red,
+112 │ │     
+113 │ │     "secondary-orange": $secondary-orange,
+114 │ │     
+115 │ │     "secondary-brown": $secondary-brown,
+116 │ │     
+117 │ │     "secondary-brown-light": $secondary-brown-light,
+118 │ │     
+119 │ │     "secondary-cream": $secondary-cream,
+120 │ │     
+121 │ │     "secondary-grey-dark": $secondary-grey-dark,
+122 │ │     
+123 │ │     "secondary-grey": $secondary-grey,
+124 │ │     
+125 │ │     "secondary-grey-light": $secondary-grey-light
+126 │ │     
+127 │ │   ),
+128 │ │   $theme-colors
+129 │ │ );
+    │ └─^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 80:16  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.type-of instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+255 │     @if type-of($value) == color {
+    │         ^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 255:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.red instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+126 │         "r": red($color),
+    │              ^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 126:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+126 │         "r": red($color),
+    │              ^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 126:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.green instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+127 │         "g": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 127:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+127 │         "g": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 127:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.blue instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+128 │         "b": blue($color)
+    │              ^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 128:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+128 │         "b": blue($color)
+    │              ^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 128:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -47.5155279503%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+231 │             color: darken($color, 15%) !important;
+    │                    ^^^^^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 231:20                                                             theme-text()
+    _theme-colors.scss 264:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -31.6770186335%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+245 │             background-color: darken($color, 10%) !important;
+    │                               ^^^^^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 245:31                                                             theme-bg()
+    _theme-colors.scss 266:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+WARNING: 53 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 1.5144899 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2024-12-12 13:07:24
+                    jekyll_output.log
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+130 │ @import "theme-colors", "theme-utilities";
+    │         ^^^^^^^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+130 │ @import "theme-colors", "theme-utilities";
+    │                         ^^^^^^^^^^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:25  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │         ^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:9  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │                 ^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:17  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │                          ^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:26  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+80  │   $theme-colors: map-merge(
+    │ ┌────────────────^
+81  │ │   (
+82  │ │     
+83  │ │     "primary": $primary,
+84  │ │     
+85  │ │     "info": $info,
+86  │ │     
+87  │ │     "cardinal": $cardinal,
+88  │ │     
+89  │ │     "gold": $gold,
+90  │ │     
+91  │ │     "green-dark": $green-dark,
+92  │ │     
+93  │ │     "green": $green,
+94  │ │     
+95  │ │     "green-light": $green-light,
+96  │ │     
+97  │ │     "secondary-green-dark": $secondary-green-dark,
+98  │ │     
+99  │ │     "secondary-green": $secondary-green,
+100 │ │     
+101 │ │     "secondary-green-light": $secondary-green-light,
+102 │ │     
+103 │ │     "secondary-blue-dark": $secondary-blue-dark,
+104 │ │     
+105 │ │     "secondary-blue": $secondary-blue,
+106 │ │     
+107 │ │     "secondary-blue-light": $secondary-blue-light,
+108 │ │     
+109 │ │     "secondary-red-dark": $secondary-red-dark,
+110 │ │     
+111 │ │     "secondary-red": $secondary-red,
+112 │ │     
+113 │ │     "secondary-orange": $secondary-orange,
+114 │ │     
+115 │ │     "secondary-brown": $secondary-brown,
+116 │ │     
+117 │ │     "secondary-brown-light": $secondary-brown-light,
+118 │ │     
+119 │ │     "secondary-cream": $secondary-cream,
+120 │ │     
+121 │ │     "secondary-grey-dark": $secondary-grey-dark,
+122 │ │     
+123 │ │     "secondary-grey": $secondary-grey,
+124 │ │     
+125 │ │     "secondary-grey-light": $secondary-grey-light
+126 │ │     
+127 │ │   ),
+128 │ │   $theme-colors
+129 │ │ );
+    │ └─^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 80:16  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.type-of instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+255 │     @if type-of($value) == color {
+    │         ^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 255:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.red instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+126 │         "r": red($color),
+    │              ^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 126:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+126 │         "r": red($color),
+    │              ^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 126:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.green instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+127 │         "g": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 127:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+127 │         "g": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 127:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.blue instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+128 │         "b": blue($color)
+    │              ^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 128:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+128 │         "b": blue($color)
+    │              ^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 128:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -47.5155279503%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+231 │             color: darken($color, 15%) !important;
+    │                    ^^^^^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 231:20                                                             theme-text()
+    _theme-colors.scss 264:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -31.6770186335%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+245 │             background-color: darken($color, 10%) !important;
+    │                               ^^^^^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 245:31                                                             theme-bg()
+    _theme-colors.scss 266:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+WARNING: 53 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 1.7766935 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2024-12-12 13:07:26
+                    jekyll_output.log
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+130 │ @import "theme-colors", "theme-utilities";
+    │         ^^^^^^^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+130 │ @import "theme-colors", "theme-utilities";
+    │                         ^^^^^^^^^^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:25  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │         ^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:9  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │                 ^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:17  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │                          ^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:26  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+80  │   $theme-colors: map-merge(
+    │ ┌────────────────^
+81  │ │   (
+82  │ │     
+83  │ │     "primary": $primary,
+84  │ │     
+85  │ │     "info": $info,
+86  │ │     
+87  │ │     "cardinal": $cardinal,
+88  │ │     
+89  │ │     "gold": $gold,
+90  │ │     
+91  │ │     "green-dark": $green-dark,
+92  │ │     
+93  │ │     "green": $green,
+94  │ │     
+95  │ │     "green-light": $green-light,
+96  │ │     
+97  │ │     "secondary-green-dark": $secondary-green-dark,
+98  │ │     
+99  │ │     "secondary-green": $secondary-green,
+100 │ │     
+101 │ │     "secondary-green-light": $secondary-green-light,
+102 │ │     
+103 │ │     "secondary-blue-dark": $secondary-blue-dark,
+104 │ │     
+105 │ │     "secondary-blue": $secondary-blue,
+106 │ │     
+107 │ │     "secondary-blue-light": $secondary-blue-light,
+108 │ │     
+109 │ │     "secondary-red-dark": $secondary-red-dark,
+110 │ │     
+111 │ │     "secondary-red": $secondary-red,
+112 │ │     
+113 │ │     "secondary-orange": $secondary-orange,
+114 │ │     
+115 │ │     "secondary-brown": $secondary-brown,
+116 │ │     
+117 │ │     "secondary-brown-light": $secondary-brown-light,
+118 │ │     
+119 │ │     "secondary-cream": $secondary-cream,
+120 │ │     
+121 │ │     "secondary-grey-dark": $secondary-grey-dark,
+122 │ │     
+123 │ │     "secondary-grey": $secondary-grey,
+124 │ │     
+125 │ │     "secondary-grey-light": $secondary-grey-light
+126 │ │     
+127 │ │   ),
+128 │ │   $theme-colors
+129 │ │ );
+    │ └─^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 80:16  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.type-of instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+255 │     @if type-of($value) == color {
+    │         ^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 255:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.red instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+126 │         "r": red($color),
+    │              ^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 126:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+126 │         "r": red($color),
+    │              ^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 126:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.green instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+127 │         "g": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 127:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+127 │         "g": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 127:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.blue instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+128 │         "b": blue($color)
+    │              ^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 128:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+128 │         "b": blue($color)
+    │              ^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 128:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -47.5155279503%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+231 │             color: darken($color, 15%) !important;
+    │                    ^^^^^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 231:20                                                             theme-text()
+    _theme-colors.scss 264:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -31.6770186335%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+245 │             background-color: darken($color, 10%) !important;
+    │                               ^^^^^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 245:31                                                             theme-bg()
+    _theme-colors.scss 266:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+WARNING: 53 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 1.6661647 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2024-12-12 13:07:28
+                    jekyll_output.log
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+130 │ @import "theme-colors", "theme-utilities";
+    │         ^^^^^^^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+130 │ @import "theme-colors", "theme-utilities";
+    │                         ^^^^^^^^^^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:25  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │         ^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:9  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │                 ^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:17  root stylesheet
+DEPRECATION WARNING: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+133 │ @import "base", "pages", "custom";
+    │                          ^^^^^^^^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 133:26  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+80  │   $theme-colors: map-merge(
+    │ ┌────────────────^
+81  │ │   (
+82  │ │     
+83  │ │     "primary": $primary,
+84  │ │     
+85  │ │     "info": $info,
+86  │ │     
+87  │ │     "cardinal": $cardinal,
+88  │ │     
+89  │ │     "gold": $gold,
+90  │ │     
+91  │ │     "green-dark": $green-dark,
+92  │ │     
+93  │ │     "green": $green,
+94  │ │     
+95  │ │     "green-light": $green-light,
+96  │ │     
+97  │ │     "secondary-green-dark": $secondary-green-dark,
+98  │ │     
+99  │ │     "secondary-green": $secondary-green,
+100 │ │     
+101 │ │     "secondary-green-light": $secondary-green-light,
+102 │ │     
+103 │ │     "secondary-blue-dark": $secondary-blue-dark,
+104 │ │     
+105 │ │     "secondary-blue": $secondary-blue,
+106 │ │     
+107 │ │     "secondary-blue-light": $secondary-blue-light,
+108 │ │     
+109 │ │     "secondary-red-dark": $secondary-red-dark,
+110 │ │     
+111 │ │     "secondary-red": $secondary-red,
+112 │ │     
+113 │ │     "secondary-orange": $secondary-orange,
+114 │ │     
+115 │ │     "secondary-brown": $secondary-brown,
+116 │ │     
+117 │ │     "secondary-brown-light": $secondary-brown-light,
+118 │ │     
+119 │ │     "secondary-cream": $secondary-cream,
+120 │ │     
+121 │ │     "secondary-grey-dark": $secondary-grey-dark,
+122 │ │     
+123 │ │     "secondary-grey": $secondary-grey,
+124 │ │     
+125 │ │     "secondary-grey-light": $secondary-grey-light
+126 │ │     
+127 │ │   ),
+128 │ │   $theme-colors
+129 │ │ );
+    │ └─^
+    ╵
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 80:16  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.type-of instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+255 │     @if type-of($value) == color {
+    │         ^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 255:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.red instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+126 │         "r": red($color),
+    │              ^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 126:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+126 │         "r": red($color),
+    │              ^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 126:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.green instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+127 │         "g": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 127:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+127 │         "g": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 127:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.blue instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+128 │         "b": blue($color)
+    │              ^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 128:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+128 │         "b": blue($color)
+    │              ^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 128:14                                                             luminance()
+    _theme-colors.scss 113:10                                                             contrast-ratio()
+    _theme-colors.scss 99:26                                                              color-contrast()
+    _theme-colors.scss 146:17                                                             theme-button()
+    _theme-colors.scss 258:13                                                             @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -47.5155279503%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+231 │             color: darken($color, 15%) !important;
+    │                    ^^^^^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 231:20                                                             theme-text()
+    _theme-colors.scss 264:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -31.6770186335%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+245 │             background-color: darken($color, 10%) !important;
+    │                               ^^^^^^^^^^^^^^^^^^^
+    ╵
+    _theme-colors.scss 245:31                                                             theme-bg()
+    _theme-colors.scss 266:9                                                              @import
+    C:\Users\mrc2\Documents\GitHub\digital-collections-template\assets\css\cb.scss 130:9  root stylesheet
+WARNING: 53 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+Terminate batch job (Y/N)? 
+^C

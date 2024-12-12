@@ -19,3 +19,5 @@ Students have been living, working, and learning on the campus of Iowa State Uni
 
 
 ## Related resources
+
+<a href="https://exhibits.lib.iastate.edu/we-are-isu-snapshots-of-student-life" target="_blank">We are ISU Digital Exhibit</a>
