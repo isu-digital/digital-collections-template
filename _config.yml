@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/extensionoutreach
+baseurl: /extensionoutreach
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -23,7 +23,7 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: Iowa State University Extension and Outreach Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Photographs and documents related to ISU extension and outreach services
+tagline: Photographs and documents related to ISU Extension and Outreach services
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "Iowa State Extension Service carries its land-grant mission beyond campus, providing a research-based educational service to the people of Iowa. Early extension work included educational trains, short courses, farmers' institutes, demonstration farms, and other activities. The state has experienced significant agricultural progress since its establishment."
