@@ -1,3 +1,6 @@
+# Changelog
+Commented out "view on map" buttons in _includes/item/child/compount-item-download-buttons.html and _includes/item/download-buttons.html as temporary fix for only first lat/long appearing on map (lsulli12, 2024/12/13)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
