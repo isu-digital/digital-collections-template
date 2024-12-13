@@ -15,4 +15,4 @@ accessibility: true
 
 ## About the Collection
 
-Michael P. Harker is an Iowa-based photographer. This collection contains a selection of photographs taken for the book entitled Harker's Barns: Visions of an American Icon documenting Iowa's barns.
+Michael P. Harker is an Iowa-based photographer. Harker's images of historic barns document the architecture of the iconic buildings as they began disappearing from the Iowa countryside. This collection contains a selection of photographs taken for the book entitled Harker's Barns: Visions of an American Icon documenting Iowa's barns.
