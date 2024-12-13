@@ -8,12 +8,11 @@ layout: item/item-page-base
     <div class="card-body">
     
         {% if page.object_location contains 'vimeo' or page.object_location contains 'youtu' %}
-        {% include item/video-embed.html %}
+            {% include item/video-embed.html %}
         {% elsif page.object_location contains 'aviaryplatform' or page.object_location contains 'ark' %}
-        {% include item/aviary-embed.html %}
+            {% include item/aviary-embed.html %}
         {% else %}
-        {% else %}
-        {% include item/video-player.html %}
+            {% include item/video-player.html %}
         {% endif %}
 
         <div class="mt-2">
