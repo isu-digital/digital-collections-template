@@ -1,6 +1,5 @@
 # Changelog
-mrcummings 11/22/2024
-Removed Locations from navbar because Story County is the only location in this collection. (mrcummings, week of 2024/10/30)
+Removed Locations from navbar because Story County is the only location in this collection. (mrcummings 11/22/2024)
 
 # CollectionBuilder-CSV
 
