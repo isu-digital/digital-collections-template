@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/farmsteadpicturecollection
+baseurl: /farmsteadpicturecollection
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -23,7 +23,7 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: Iowa Farmstead Picture Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: This collection featues engravings and lithographs featureing Iowa farms
+tagline: Engravings and lithographs featuring Iowa farms
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "State atlases and other publications from the late 19th and early 20th centuries included illustrations of Iowa farms. This collection contains engravings and lithographs (some hand-colored) depicting farmsteads and stock farms in several Iowa counties circa 1871-1904."
