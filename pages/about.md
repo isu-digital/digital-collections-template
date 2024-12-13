@@ -15,3 +15,7 @@ accessibility: true
 ## About the collection
 
 Founded in 1858 as Iowa Agricultural College and Model Farm, Iowa State has been led by 16 presidents beginning with Adonijah Welch in 1868. Current president Wendy Wintersteen began her term in 2017. The collection includes inaugural addresses and programs, photographs of inauguration and installation ceremonies, and portraits of Iowa State presidents.
+
+## Related resources
+
+[First Families of Iowa State](https://n2t.net/ark:/87292/w95q4rm75){:target="_blank" rel="noopener"}
