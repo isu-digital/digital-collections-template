@@ -19,9 +19,9 @@ layout: page
     {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
 
 
-    {% include index/featured-terms.html field="genre" title="Genre" btn-color="outline-info" %}
+    {% include index/featured-terms.html field="genre" title="Genre" btn-color="secondary-blue" %}
     
-    {% include index/objects.html %}
+    {% include index/objects.html object_field="format" others=true total=true %}
 
   </div>
 
