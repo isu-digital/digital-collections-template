@@ -18,4 +18,4 @@ In the early 20th century, Iowa State University botanist Louis Hermann Pammel (
 
 ## Related resources
 
-[A More Beautiful Iowa: Iowa's State Parks System digital exhibit](https://exhibits.lib.iastate.edu/iowa-state-parks){:target="_blank" rel="noopener"}
+[A More Beautiful Iowa: Iowa's State Parks System digital exhibit](https://n2t.net/ark:/87292/w9dz03702){:target="_blank" rel="noopener"}
