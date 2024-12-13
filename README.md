@@ -1,3 +1,6 @@
+# Changelog
+Removed: top subjects from home-infographic, subjects & locations from nav bar (lsulli12, 2024/12/13)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
