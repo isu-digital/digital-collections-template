@@ -14,3 +14,4 @@ accessibility: true
 ## About Iowa Seed and Nursery Pamphlets Collection
 
 This digital collection contains trade catalogs from Iowa seed companies, such as the Iowa Seed Company and Dorr's Iowa Seeds. Catalogs include seeds and bulbs for flowers, trees, herbs, ornamental shrubs, vegetables, grains, grasses, and fruit. The catalogs often also include gardening tools and implements.
+
