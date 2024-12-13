@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/september29th
+baseurl: /september29th
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -23,7 +23,7 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # title of site appears in banner
 title: September 29th Movement Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: This collection feature documentation of the september 29th movement
+tagline: Documentation of the student-led September 29th movement
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "This collection contains a variety of documents that cover topics such as the life of Carrie Chapman Catt, the university's building naming practices, the women's suffrage movement, and the relationship between white women's suffrage and African-American civil rights."
