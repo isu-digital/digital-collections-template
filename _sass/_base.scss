@@ -14,7 +14,7 @@ a {
     @if $link-color != "" { 
         color: $link-color; 
         &:hover {
-            @if $text-color != "" { color: $text-color; }
+            color: #7C2529;
         }
     }
 }
