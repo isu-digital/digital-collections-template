@@ -19,4 +19,4 @@ He developed an environmental planning model based on the concept of gathering a
 
 The Warren H. Manning Collection digital collection includes many black and white lantern slides along with a few color slides that have been scanned to preserve their fragile images. Nearly 1,700 images of botanical specimens, landscape drawings, maps, and examples of gardens, cityscapes, and natural landscapes are represented along with a copy of his National Plan.
 
-The Warren H. Manning Papers, 1882-2007, n.d.contains material related to Manning's work on the National Plan, speeches, articles, reports, client lists, drawings and plans from more than fifty of Manning's projects, glass lantern slides, and photographs.
+The Warren H. Manning Papers, 1882-2007, n.d. contains material related to Manning's work on the National Plan, speeches, articles, reports, client lists, drawings and plans from more than fifty of Manning's projects, glass lantern slides, and photographs.
