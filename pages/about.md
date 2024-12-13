@@ -18,3 +18,5 @@ accessibility: true
 Kitchen-Klatter began as a talk show in 1924. It continued as both a talk show and magazine in 1940 and covered home stories, recipes, household tips, child-rearing advice, and comments on current events.
 
 ## Related resources
+
+[Iowa Cookbook Collection exhibit](https://n2t.net/ark:/87292/w9jq0t13b){:target="_blank" rel="noopener"}
