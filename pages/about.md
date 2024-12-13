@@ -11,8 +11,8 @@ accessibility: true
 
 {% include feature/jumbotron.html objectid="iowastatecenter2" %} 
 
-{% include feature/nav-menu.html sections="About the Collection" %}
+{% include feature/nav-menu.html sections="About the collection" %}
 
-## About the Collection
+## About the collection
 
 The Iowa State Center was built as an educational, cultural, and athletic complex. This collection was created for the 50th anniversary of C. Y. Stephens Auditorium and contains images and documentation of both Stephens Auditorium and the Iowa State Center.
