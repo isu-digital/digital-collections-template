@@ -10,8 +10,12 @@ accessibility: true
 ---
 
 {% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/vwpd/small/protest_sm.jpg" %} 
-{% include feature/nav-menu.html sections="About the collection" %}
+{% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
 ## About the collection
 
 Oral history interviews conducted by the Iowa State University Library Special Collections Department with key individuals involved with protests against the Vietnam War on the Iowa State University campus. Interviewees included students, administrators, and citizens of Ames, Iowa.
+
+## Related resources
+
+["The Times They Are A-Changin" Political Protests--Iowa State University--May 1970](https://n2t.net/ark:/87292/w9b56d88t){:target="_blank" rel="noopener"}
