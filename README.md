@@ -1,3 +1,6 @@
+# Changelog
+made changes to _includes\item\download-buttons.html to fix double-download PDF buttons (copied from chevalier branch)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
