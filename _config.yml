@@ -8,9 +8,9 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://isuu00001library102stg.z21.web.core.windows.net
+url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/iowaornithassoc
+baseurl: /iowaornithassoc
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -57,7 +57,7 @@ page_gen:
 #
 organization-name: "Iowa State University Library Digital Collections"
 organization-link: https://www.lib.iastate.edu/
-organization-logo-banner: https://isuu00001library102stg.z21.web.core.windows.net/assets/media/ISU_Library_Center_Red.png
+organization-logo-banner: https://isuu00001library102stg.z21.web.core.windows.net/assets/media/dclogo_edited.png
 organization-logo-nav: https://isuu00001library102stg.z21.web.core.windows.net/assets/media/ISU_Library_Center_White.png
 
 ##########
@@ -74,7 +74,7 @@ organization-logo-nav: https://isuu00001library102stg.z21.web.core.windows.net/a
 # (this is done automatically by gh-pages build)
 #
 # ignore stuff
-exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md]
+exclude: [docs/, Rakefile, rakelib/, README.md, LICENSE, CODEOWNERS, utilities/, objects/]
 # compress CSS output
 sass:
   style: compressed
