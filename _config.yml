@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collections/cookbooks
+baseurl: /cookbooks
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -21,7 +21,7 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Cookbook collection
+title: Cookbook Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: A selection of 19th- and 20th-century cookbooks from ISU Library Special Collections Iowa Cookbook Collection
 # description appears in meta tags and other locations
