@@ -1,6 +1,7 @@
 # Changelog
 
 * Locations page was disabled and removed from the home infographic because there is only one location for the entire collection (mrcummings on 11/01/2024)
+* year-nav-increment in theme.yml change to 1 so year appears in drop-down(lsulli12, 2024/12/13)
 
 # CollectionBuilder-CSV
 
