@@ -10,7 +10,7 @@ accessibility: true
 ---
 
 {% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/iowacountyhistories/small/f627-s8b-2005i00000001_sm.jpg" %} 
-
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About Iowa County Histories Collection
 
