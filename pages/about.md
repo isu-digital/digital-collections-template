@@ -10,6 +10,7 @@ accessibility: true
 ---
 
 {% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/farmsteadpicturecollection/small/0390_iowafarmsteadpicturecollection_0001-001-001_sm.jpg" %} 
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About Iowa Farmstead Picture Collection
 
