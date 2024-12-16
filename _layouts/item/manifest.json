@@ -2,7 +2,7 @@
 {%- assign fields = site.data.config-metadata | where_exp: 'item', 'item.display_name != nil' -%}
 {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "{{ '/manifests/' | append: page.objectid | append: '.json' | relative_url }}",
+   "id": "{{ '/manifests/' | append: page.objectid | append: '.json' | absolute_url }}",
    "type": "Manifest",
    "label": {
        "{{ page.language | default: 'eng' }}": [
@@ -30,13 +30,13 @@
     "items": [
         {% if children == empty %}
         {
-            "id": "{{ page.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+            "id": "{{ page.objectid | prepend: '/canvas/' | absolute_url }}",
             "type": "Canvas",
             "height": 1513,
             "width": 1000,
             "label": {
               "{{ page.language }}": [
-                "{{ page.title }}"
+                {{ page.title | jsonify }}
               ]
             }{%- if page.image_thumb -%},
             "thumbnail": [
@@ -50,14 +50,14 @@
             ]{%- endif -%},
             "items": [
                 {
-                    "id": "{{ page.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+                    "id": "{{ page.objectid | prepend: '/canvas/' | absolute_url }}",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "{{ page.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/' }}",
+                            "id": "{{ page.objectid | prepend: '/annotation/' | absolute_url}}",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "{{ page.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+                            "target": "{{ page.objectid | prepend: '/canvas/' | absolute_url }}",
                             "body": {
                                 "id": "{{ page.object_location | relative_url }}",
                                 "type": "Image",
@@ -73,13 +73,13 @@
         {%- elsif children -%}
         {%- for c in children -%}
         {
-            "id": "{{ c.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+            "id": "{{ c.objectid | prepend: '/canvas/' | absolute_url }}",
             "type": "Canvas",
             "height": 1513,
             "width": 1000,
             "label": {
             "{{ page.language }}": [
-                "{{ c.title }}"
+                {{ c.title | jsonify }}
             ]
             }{%- if c.image_thumb -%},
             "thumbnail": [
@@ -93,14 +93,14 @@
             ]{%- endif -%},
             "items": [
                 {
-                    "id": "{{ c.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+                    "id": "{{ c.objectid | prepend: '/canvas/' | absolute_url}}",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "{{ c.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/canvas/' }}",
+                            "id": "{{ c.objectid | prepend: '/canvas/' | absolute_url }}",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "{{ c.objectid | prepend: 'https://example.org/6124c883-6869-4ec3-8286-9f3c6d2f0327/annotation/' }}",
+                            "target": "{{ c.objectid | prepend: '/annotation/' | absolute_url }}",
                             "body": {
                                 "id": "{{ c.object_location | relative_url }}",
                                 "type": "Image",
