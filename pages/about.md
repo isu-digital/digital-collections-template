@@ -10,6 +10,7 @@ accessibility: true
 ---
 
 {% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/manningwarren/small/ms0218_mc-c401-d10-1048-19-5-7_sm.jpg" %} 
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the Warren H. Manning Collection
 
