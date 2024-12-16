@@ -4,6 +4,8 @@ Changed theme.yml home-title-y-padding from 12em to 15em to who more of the imag
 
 (Somsanith-ISU on 10/31/2024)
 
+Removed Locations because there's only one (mrcummings 12/16/2024)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
