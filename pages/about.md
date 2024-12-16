@@ -11,7 +11,7 @@ accessibility: true
 
 {% include feature/jumbotron.html objectid="/assets/img/elwood24_10m37s.jpg" %} 
 
-{% include feature/nav-menu.html sections="About the collection;" %}
+{% include feature/nav-menu.html sections="About the collection" %}
 
 ## About the collection
 
