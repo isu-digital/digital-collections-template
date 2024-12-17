@@ -21,12 +21,12 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Hortense Butler Heywood Papers
+title: Hortense Butler Heywood collection
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: A selection of materials from the Hortense Butler Heywood Papers
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Items for the digital collection were selected as representative of Heywood's development as a scientific illustrator and her education in science, her relationships with other scientists (both men and women), her civic engagement, and her contributions to entomology."
+description: "Hortense Butler Heywood was a well-known entomologist who was born and raised in Iowa. She co-authored the book, Handbook of the Dragonflies of North America and is also known for her detailed illustrations of specimens. The digital collection contains biographical information, college papers, course notes, photographs, specimen drawings, correspondence, reports, articles, book reports, scientific correspondence and articles, and glass specimen slides. Items for the digital collection were selected as representative of Heywood's development as a scientific illustrator, her education in science, her relationships with other scientists (both men and women), her civic engagement, and her contributions to entomology. The complete collection is available at the Iowa State University Library Special Collections and University Archives."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: iowa; entomology; insects; dragonflies; women in science; history
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
