@@ -9,7 +9,7 @@ accessibility: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="adonijahwelch302" %} 
+{% include feature/jumbotron.html objectid="adonijahwelch1752" %} 
 
 {% include feature/nav-menu.html sections="About the collection" %}
 
