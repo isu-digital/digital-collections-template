@@ -25,12 +25,12 @@
         <ul class="dropdown-menu custom-download-dropdown">
             <li><a target="_blank" rel="noopener" href="{{ page.object_pdf | relative_url }}" class="dropdown-item">Download PDF</a></li>
             <li><a target="_blank" rel="noopener" href="{{ page.object_location | relative_url }}" class="dropdown-item">
-                {% if page.display_template == 'video' and page.object_location contains 'vimeo' %}View on Vimeo{% elsif page.display_template == 'video' and page.object_location contains 'youtu' %}View on YouTube{% elsif page.display_template == 'video' and page.object_location contains 'aviaryplatform' %}View on Aviary{% elsif page.display_template == 'record'%}Link to Object{% else %}Download {{ page.format | split: '/' | last | default: page.display_template | upcase }}{% endif %}
+                {% if page.display_template == 'video' and page.object_location contains 'vimeo' %}View on Vimeo{% elsif page.display_template == 'video' and page.object_location contains 'youtu' %}View on YouTube{% elsif page.display_template == 'video' and page.object_location contains 'aviaryplatform' %}View on Aviary{% elsif page.display_template == 'audio' and page.object_location contains 'aviaryplatform' %}View on Aviary{% elsif page.display_template == 'record'%}Link to Object{% else %}Download {{ page.format | split: '/' | last | default: page.display_template | upcase }}{% endif %}
             </a></li>
         </ul>
     {% else %}
         {% if page.object_location %}<a target="_blank" rel="noopener" href="{{ page.object_location | relative_url }}" class="btn btn-outline-primary">
-            {% if page.display_template == 'video' and page.object_location contains 'vimeo' %}View on Vimeo{% elsif page.display_template == 'video' and page.object_location contains 'youtu' %}View on YouTube{% elsif page.display_template == 'video' and page.object_location contains 'aviaryplatform' %}View on Aviary{% elsif page.display_template == 'record'%}Link to Object{% else %}Download {{ page.format | split: '/' | last | default: page.display_template | upcase }}{% endif %}
+            {% if page.display_template == 'video' and page.object_location contains 'vimeo' %}View on Vimeo{% elsif page.display_template == 'video' and page.object_location contains 'youtu' %}View on YouTube{% elsif page.display_template == 'video' and page.object_location contains 'aviaryplatform' %}View on Aviary{% elsif page.display_template == 'audio' and page.object_location contains 'aviaryplatform' %}View on Aviary{% elsif page.display_template == 'record'%}Link to Object{% else %}Download {{ page.format | split: '/' | last | default: page.display_template | upcase }}{% endif %}
         </a>{% endif %}
         {% if page.object_pdf %}
         <a target="_blank" rel="noopener" href="{{ page.object_pdf | relative_url }}" class="btn btn-outline-primary">Download PDF</a>{% endif %}
