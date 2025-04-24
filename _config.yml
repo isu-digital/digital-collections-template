@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /demo
+baseurl: /cmboh
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -21,16 +21,16 @@ digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Cyclone Marching Band oral histories
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Interviews from 2023-2024 documenting the shared and varied experiences of band members
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "What is now called the Iowa State University Cyclone Football 'Varsity' Marching Band (ISUCF'V'MB) was founded in 1881. For many Iowa State alumni, it has served as an integral part of student life at Iowa State for over a century. The main goal of this project was to gather the shared and varied experiences of band members throughout time, especially how societal change and campus culture impacted those experiences. These stories, stretching back decades, document a unique aspect of student life on Iowa State’s campus. They also deepen the documented history of the marching band at Iowa State, joining the Iowa State University Cyclone Marching Band records (RS 13/17/3) of manuscripts, photographs, uniforms, etc., in Special Collections and University Archives (SCUA). The interviewees are alumni of Iowa State College/University who participated in the marching band during their time as students or former directors of the Cyclone Marching Band. The range of interviewees contributes to a diverse range of perspectives regarding the long history of the band. Interviewees are volunteers to the project who expressed interest in participating during Homecoming 2022 and those who were identified by others participating in the project. This project utilized SCUA employees and volunteer interviewers from within the community of marching band alumni and directors to conduct interviews. The project concluded in the fall of 2024."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: iowa; history; midwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: lsulli12
 
 ##########
 # COLLECTION SETTINGS
