@@ -8,10 +8,14 @@
     <div class="card-body">
         <dl>
             {% if page.rights %}<dt>Local Rights Statement:</dt>
-            <dd>{{ page.rights }}</dd>{% endif %}
+            <dd>{{ page.rights }}</dd>
+            {% endif %}
             {% if page.rightsstatement %}<dt>Standardized Rights Statement:</dt>
-            <dd><a target="_blank" rel="noopener" href="{{ page.rightsstatement | split: ';' }}">{{ page.rightsstatement }}</a></dd>{% endif %}
-             </dd>{% endif %}
+                {% assign rightsstatements = page.rightsstatement | split: ";" %}
+                {% for page_url in rightsstatements %}
+                <dd><a target="_blank" rel="noopener" href="{{ page_url }}">{{ page_url }}</a></dd>
+                {% endfor %}
+            {% endif %}
         </dl>
     </div>
 </div>
