@@ -13,7 +13,7 @@
                 {% assign rightsstatements = page.rightsstatement | split: ";" %}
                 <dd>
                     {% for rights_url in rightsstatements %}
-                    <a target="_blank" rel="noopener" href="{{ rights_url }}">{{ rights_url }}</a>
+                    <a target="_blank" rel="noopener" href="{{ rights_url }}">{{ rights_url }}</a><br>
                     {% endfor %}
                 </dd>  
             {% endif %}
