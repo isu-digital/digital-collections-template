@@ -8,10 +8,9 @@ subject,subject
 coverage,location
 identifier,identifier
 source,source
-type,type
 format,format
 language,language
 rights,rightsstatement
 relation,archival_collection
 publisher,publisher
-genre,display_template
+genre,genre
