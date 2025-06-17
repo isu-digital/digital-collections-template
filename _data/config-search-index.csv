@@ -8,6 +8,7 @@ subject,subject
 coverage,location
 identifier,identifier
 source,source
+type,type
 format,format
 language,language
 rights,rightsstatement
