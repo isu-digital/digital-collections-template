@@ -1,3 +1,10 @@
+# Changelog
+"Locations,/locations.html," deleted from config-nav.csv as 1 location for collection (lsulli12, 6/20/2025)
+
+  The following were deleted from layouts/home-infographic.html (lsulli12, 6/20/2025) :  
+    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary-blue-dark" %}
+    {% include index/featured-terms.html field="genre" title="Genre" btn-color="secondary-blue" %}
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
