@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /demo
+baseurl: /isudirectories
 # location of code, the full url to your github repository
 source-code: https://github.com/isu-digital/digital-collections-template
 
@@ -28,28 +28,28 @@ central-search:
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Iowa State University Directories
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Early student directories containing names and residences
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "Iowa State College, now Iowa State University, began publishing student directories in 1901 to support student life, facilitate communication, and promote local businesses. The collection includes directories published from 1901 to 1910, offering alphabetical listings of students, their campus residences, and a variety of advertisements from Ames-area businesses that catered to the college community. These directories are essential for identifying individuals who were part of the Iowa State community over a century ago."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: iowa; history; midwest
+keywords: student directories, iowa state university, alumni and alumnae, college students
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: lsulli12
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: atanasoff
+metadata: isudirectories
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: atanasoff
-  - data: 'atanasoff-iiif'
+  - data: isudirectories
+  - data: 'isudirectories-iiif'
     template: 'manifest'
     template_override: true
     name: 'objectid'
