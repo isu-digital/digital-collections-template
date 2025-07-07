@@ -9,9 +9,16 @@
         <dl>
             {% if child.rights %}<dt>Rights:</dt>
             <dd>{{ child.rights }}</dd>{% endif %}
-            {% if child.rights_management_valueURI %}<dt>Standardized Rights:</dt>
-            <dd><a target="_blank" rel="noopener" href="{{ child.rights_management_valueURI }}">{{ child.rights_management_valueURI }}</a>
-            </dd>{% endif %}
+            {% if child.rightssstatement %}<dt>Standardized Rights:</dt>
+            {% assign rightsstatement = page.rightsstatement | split ";"}
+            <dd>
+                <ul class="list-unstyled">
+                    {% for rights_url in rightsstatements %}
+                    <li><a target="_blank" rel="noopener" href="{{ rights_url }}">{{ rights_url }}</a></li>
+                    {% endfor %}
+                </ul>
+            </dd>
+            {% endif %}
         </dl>
     </div>
 </div>
