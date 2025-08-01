@@ -8,7 +8,7 @@
 # URL VARIABLES
 # site domain, full URL to the production location of your collection
 #
-url: https://isuu00001library102stg.z21.web.core.windows.net
+url: https://digitalcollections.lib.iastate.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: /brownwoodward
 # location of code, the full url to your github repository
@@ -16,6 +16,13 @@ source-code: https://github.com/isu-digital/digital-collections-template
 
 # url to the shared assets folder on mainweb
 digital-assets: https://isuu00001library102stg.z21.web.core.windows.net/assets
+
+##########
+# Search Setting
+#
+# set to true to use elastic search box in nav. Collection search.json must be added to the search Sources! Check config-search-index for configuration.
+# if collection is not in the index, leave blank to use local lunr search instead.
+central-search: 
 
 ##########
 # SITE SETTINGS
