@@ -1,0 +1,17 @@
+dcterm,field
+title,title
+creator,personal_creator;corporate_creator
+date,date
+creator,creator
+description,description
+subject,subject;personal_name_subject;corporate_name_subject;personal_contributor;corporate_contributor
+coverage,location
+identifier,identifier
+source,archival_collection
+type,type
+format,format
+language,language
+rights,rightsstatement
+relation,relation
+publisher,publisher
+genre,genre
