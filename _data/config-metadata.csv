@@ -31,6 +31,8 @@ medium,Medium,true,,DCTERMS.medium,
 genre,Genre,true,,DCTERMS.type,
 type,Type,true,,DCTERMS.type,
 format,Format,,,DCTERMS.format,encodingFormat
+accessibility_note,Accessibility Note,true,,DCTERMS.description
+conservation_note,Conservation for Digitization,,,DCTERMS.description,
 digital_collection,Digital Collection Title,,,DCTERMS.relation,
 digital_collection_ark,Digital Collection Permalink,,true,DCTERMS.relation,
 relation,Related Resource,,,DCTERMS.relation,
