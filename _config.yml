@@ -44,12 +44,12 @@ author: CollectionBuilder
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: shsi-obj-display-test_isu-cb-template-used
+metadata: shsi-obj-display-test
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: shsi-obj-display-test_isu-cb-template-used
-  - data: 'shsi-obj-display-test_isu-cb-template-used-iiif'
+  - data: shsi-obj-display-test
+  - data: 'shsi-obj-display-test-iiif'
     template: 'manifest'
     template_override: true
     name: 'objectid'
