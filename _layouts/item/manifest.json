@@ -11,12 +11,13 @@
    },
    "attribution": "{{ page.contributing_institution }}",
    "metadata": [
-   {%- for f in fields -%}{% if page[f.field] %}
+   {%- assign displayed_fields = fields | where_exp: 'f', 'page[f.field]' -%}
+   {% for f in displayed_fields %}
       {
           "label": "{{ f.display_name }}",
           "value": {{ page[f.field] | jsonify }}
-      }{% unless f.field == "ark" or f.field == "disclaimer" %},{% endunless %}
-   {% endif %}{%- endfor -%}
+      }{% unless forloop.last %},{% endunless %}
+   {% endfor %}
    ]{%- if page.image_thumb -%},
    "thumbnail": [
       {
