@@ -14,7 +14,7 @@ var items = [
         {% if item.display_template %}"template": {{ item.display_template | replace: "_"," " | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | jsonify }}, {%- endif -%}
         {% if item.image_alt_text %}"alt": {{ item.image_alt_text | escape | jsonify }}, {%- endif -%}
-        {% if item.sensitive %}"sensitive": {{ item.sensitive | jsonify }}, {% endif %}
+        {% if item.disclaimer %}"disclaimer": {{ item.disclaimer | jsonify }}, {% endif %}
         "title":{{ item.title | strip | escape | jsonify }},
         {% if item.parentid %}"parent": {{ item.parentid | jsonify }}, {%- endif -%}
         "id":{{ item.objectid | jsonify }} }{% unless forloop.last %},{% endunless %}{%- endfor -%}
@@ -39,9 +39,9 @@ function makeCard(obj) {
     }
     var imgAlt = obj.alt ? obj.alt : obj.title;
 
-    // add blur feature for sensitive objects
-    if(obj.sensitive){
-        var warning = '<p class="text-danger small">Warning: This image is of a graphic nature.</p>';
+    // add warning feature for sensitive objects
+    if(obj.disclaimer && !obj.img){
+        var warning = '<p class="text-danger small">Warning: This image includes sensitive material.</p>';
     } else {
         var warning = '';
     }
