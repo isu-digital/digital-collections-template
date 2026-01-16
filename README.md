@@ -1,2 +1,3 @@
 # Changelog
+add map page
 cookbooks6887: parent row small and thumb uses fifth page of cookbook instead of cover: tx715-2-m53-b685x-1951i005_th.jpg and tx715-2-m53-b685x-1951i005_sm.jpg (lsulli12, 2026/01/15). cookbooks6887 includes a content disclaimer due to cover image also used throughout book.
