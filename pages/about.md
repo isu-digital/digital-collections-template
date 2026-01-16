@@ -19,4 +19,5 @@ Cookbooks published by Iowan communities, organizations, and individuals documen
 ## Related resources
 
 [The Iowa Cookbook Collection digital exhibit](https://n2t.net/ark:/87292/w94b2xb69){:target="_blank" rel="noopener"}
+
 [Computers Reading Cookbooks: A project blog documenting the digitization and analysis of the Iowa Community Cookbook Collection](https://emanderson811.github.io/computers-reading-cookbooks/){:target="_blank" rel="noopener"}
