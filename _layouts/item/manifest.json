@@ -1,5 +1,11 @@
 {%- assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' -%}
 {%- assign fields = site.data.config-metadata | where_exp: 'item', 'item.display_name != nil' -%}
+{%- assign fields_with_values = '' | split: '' -%}
+{%- for f in fields -%}
+  {%- if page[f.field] -%}
+    {%- assign fields_with_values = fields_with_values | push: f -%}
+  {%- endif -%}
+{%- endfor -%}
 {
    "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "{{ '/manifests/' | append: page.objectid | append: '.json' | absolute_url }}",
@@ -11,12 +17,12 @@
    },
    "attribution": "{{ page.contributing_institution }}",
    "metadata": [
-   {%- for f in fields -%}{% if page[f.field] %}
+   {%- for f in fields_with_values -%}
       {
           "label": "{{ f.display_name }}",
           "value": {{ page[f.field] | jsonify }}
-      }{% unless f.field == "ark" or f.field == "disclaimer" %},{% endunless %}
-   {% endif %}{%- endfor -%}
+      }{% unless forloop.last %},{% endunless %}
+   {%- endfor -%}
    ]{%- if page.image_thumb -%},
    "thumbnail": [
       {
