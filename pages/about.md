@@ -9,12 +9,12 @@ accessibility: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="cookbooks712" %} 
+{% include feature/jumbotron.html objectid="cookbooks30851" %} 
 {% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
 ## About the collection
 
-Cookbooks published by Iowan communities, organizations, and individuals document the culinary heritage of Iowa and the United States. They contain not only recipes but also valuable cultural and historical information. These digitized versions of 19th- and 20th-century cookbooks represent a selection of rare books held by ISU Library's Special Collections department in its Iowa Cookbook Collection.
+Cookbooks published by Iowan communities, organizations, and individuals document the culinary heritage of Iowa and the United States. In addition to recipes, these works contain valuable cultural, social, and historical information reflecting community life, domestic practices, and regional identity. This digital collection includes cookbooks dating from the 19th through the 21st centuries and represents a curated selection of rare books drawn from Iowa State University Library's Special Collections and University Archives as well as the General Collection. The digitized materials form part of the Iowa Cookbook Collection and highlight the breadth and continuity of Iowa's culinary traditions.
 
 ## Related resources
 
