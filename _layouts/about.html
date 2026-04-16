@@ -69,7 +69,7 @@ layout: default
                 </button>
             </div>
             <div id="about-toc-list" class="collapse" > 
-            {% include cb/jekyll-toc.html html=content sanitize=true h_min=1 h_max=3 skip_no_ids=true class="jekyll-toc-list" credits=page.credits %}
+            {% include cb/jekyll-toc.html html=content sanitize=true h_min=1 h_max=3 skip_no_ids=true class="jekyll-toc-list" credits=page.credits accessibility=page.accessibility %}
             </div>
         </div>
         {% endunless %}
