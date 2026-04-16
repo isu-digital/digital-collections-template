@@ -20,7 +20,7 @@
 }
 .liblogo-corner img{ height: 40px; }
 </style>
-<div id="home-banner" class="container-fluid mb-0 p-0">
+<header id="home-banner" class="container-fluid mb-0 p-0" role="banner">
     <div id="home-title-box" class="position-relative" >
         <a class="d-none d-md-block position-absolute top-0 end-0 p-3 liblogo-corner bg-dark bg-opacity-75" href="https://digitalcollections.lib.iastate.edu/" title="Iowa State University Library Digital Collections home" target="_blank" rel="noopener">
             <img alt="Iowa State University Library Digital Collections" src=" https://isuu00001library102stg.z21.web.core.windows.net/assets/media/dclogo.png" >
@@ -34,9 +34,9 @@
             <a class="text-white fs-6" href="{{ site.data.featured_item.link | relative_url }}" title="{{ site.data.featured_item.alt | escape }}">Featured Image</a>
         </div>{% endunless %}
     </div>
-</div>
+</header>
 {%- else -%}
-<div class="container">
+<header class="container" role="banner">
     <div class="row align-items-center">
         <div id="title" class="{% if site.organization-logo-banner %}col-md-9{% else %}col-12{% endif %}">
             <h1 class="mt-2"><a class="text-dark" href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
@@ -50,5 +50,5 @@
         </div>
         {% endif %}
     </div>
-</div>
+</header>
 {%- endif -%}
