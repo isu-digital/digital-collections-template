@@ -70,12 +70,12 @@
 {%- else -%}
 <header class="container" role="banner">
     <div class="row align-items-center">
-        <div id="title" class="{% if site.organization-logo-banner %}col-md-10{% else %}col-12{% endif %}">
+        <div id="title" class="{% if site.organization-logo-banner %}col-md-9{% else %}col-12{% endif %}">
             <h1 class="mt-2"><a class="text-dark" href="{{ '/' | relative_url }}" >{{ site.title }}</a></h1>	 
             {% if site.tagline %}<p>{{ site.tagline }}</p>{% endif %}
         </div>
         {% if site.organization-logo-banner %}
-        <div class="col-md-2 d-none d-lg-block text-end">
+        <div class="col-md-3 d-none d-lg-block text-end">
             <a class="btn btn-outline-light" href="https://digitalcollections.lib.iastate.edu/" target="_blank" rel="noopener">
                 <img class="img-fluid" src="{{ site.organization-logo-banner | relative_url }}" title="Iowa State University Library Digital Collections" alt="Iowa State University Library Digital Collections home" >
             </a>
