@@ -1,7 +1,7 @@
-{% if site.data.theme.map-child-objects == false %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
-{% else %}
+{% if site.data.theme.map-child-objects == true %}
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+{% else %}
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
 {% endif %}
 {%- assign items = items | where_exp: 'item','item.latitude != nil and item.longitude != nil' -%}
 {%- assign fields = site.data.config-map -%}
@@ -39,7 +39,7 @@
     var markerFilter = url.searchParams.get('marker') ? url.searchParams.get('marker') : "";
 
     /* init map */
-    var map = L.map('map');
+    var map = L.map('mapContainer');
 
     /* add map layer options */
     var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
