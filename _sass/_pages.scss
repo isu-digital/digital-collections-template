@@ -47,7 +47,7 @@ $toc-a-color: #191919 !default;
 /* browse */
 
 /* map */
-#map { height: 750px; z-index: 98; }
+#mapContainer { height: 750px; z-index: 98; }
 .map-thumb {
     height: 100px;
     max-width: 100%;
@@ -164,10 +164,14 @@ $toc-a-color: #191919 !default;
         a {
             text-decoration: underline;
         }
-        
+                
         a.btn {
             text-decoration: none;
         }
+    }
+    // avoid issues with long citation urls breaking layouts
+    #about-contents-wrapper {
+        overflow-wrap: break-word;
     }
     #credits-contents-wrapper {
         grid-area: credits;
