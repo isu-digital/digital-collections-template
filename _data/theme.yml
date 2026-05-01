@@ -93,7 +93,7 @@ search-child-objects: false # true / false - if true, child objects will appear 
 navbar-color: dark
 # navbar background color, https://getbootstrap.com/docs/5.3/utilities/background/
 # Choose from bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark, bg-white
-navbar-background: bg-black
+navbar-background: bg-dark
 
 # THEME FONTS [optional!]
 base-font-size: 1.2em
