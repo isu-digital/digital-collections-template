@@ -169,6 +169,10 @@ $toc-a-color: #191919 !default;
             text-decoration: none;
         }
     }
+    // avoid issues with long citation urls breaking layouts
+    #about-contents-wrapper {
+        overflow-wrap: break-word;
+    }
     #credits-contents-wrapper {
         grid-area: credits;
         order: 2;
