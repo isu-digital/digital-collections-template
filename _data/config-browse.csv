@@ -9,6 +9,7 @@ personal_name_subject,,true
 corporate_name_subject,,true
 location,Location,true
 genre,Genre,true
+chronological_subject,,,true
 publisher,,,true
 archival_collection,,,true
 other_collection,,,true
