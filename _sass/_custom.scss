@@ -16,3 +16,39 @@ h1 {
     max-height: 500px;
     overflow-y: auto;
 }
+
+#credits-contents-wrapper a {
+    text-decoration: underline;
+}
+
+#about-contents-wrapper a {
+    text-decoration: underline;
+}
+
+/* Carousel Focus-Visible Indicators */
+.carousel-control-prev:focus-visible,
+.carousel-control-next:focus-visible {
+    outline: 3px solid #F1BE48; /* Gold color for high contrast */
+    outline-offset: 2px;
+    box-shadow: 0 0 0 6px rgba(241, 190, 72, 0.3); /* Soft glow effect */
+    border-radius: 4px;
+}
+
+.carousel-indicators button:focus-visible {
+    outline: 2px solid #F1BE48;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px rgba(241, 190, 72, 0.4);
+    border-radius: 2px;
+}
+
+/* Enhanced hover states for better interaction feedback */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(241, 190, 72, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+.carousel-indicators button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.2s ease;
+}
