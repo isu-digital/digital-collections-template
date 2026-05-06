@@ -5,13 +5,19 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 accessibility: true
+# featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
+about-featured-image: https://isuu00001library102stg.z21.web.core.windows.net/assets/media/iowa_state_university_library_south_entrance.jpg
+# set background-position for featured image, "center", "top", "bottom"
+position: center
+# major heading to display over featured image
+heading: About the Collection
+# paragraph text below heading in featured image
+sub-heading: 
+# additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
+padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-
-{% include feature/jumbotron.html objectid="https://isuu00001library102stg.z21.web.core.windows.net/assets/media/iowa_state_university_library_south_entrance.jpg" %}
-
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
 ## About the collection
 
@@ -23,6 +29,6 @@ The purpose of University Extension and Outreach is to carry the University’s 
 
 ## Related resources
 
-[Reflections on ISU Extension](https://n2t.net/ark:/87292/w91n7xs85){:target="_blank" rel="noopener"}
+[Reflections on ISU Extension](https://n2t.net/ark:/87292/w91n7xs85)
 
-[Land Grant Legacy](https://www.landgrant.iastate.edu/){:target="_blank" rel="noopener"}
+[Land Grant Legacy](https://www.landgrant.iastate.edu/)
