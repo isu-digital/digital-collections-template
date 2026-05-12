@@ -15,7 +15,7 @@
             {% assign term_uris = page.relation_uri | split: ";" %}
             {% for t in terms %}
             {% assign index = forloop.index | minus: 1 %}
-            <a class="me-1" href="{{ term_uris[index] }}" target="_blank" rel="noopener">{{ t | strip }}</a>
+            <a class="me-1" href="{{ term_uris[index] }}">{{ t | strip }}</a>
             {% endfor %}
         </dd>
         {% else %}
@@ -27,7 +27,7 @@
             <a class="me-3" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
             {% endfor %}
             {% elsif f.external_link == "true" %}
-            <a href="{{ page[f.field] }}" target="_blank" rel="noopener">{{ page[f.field] }}</a>
+            <a href="{{ page[f.field] }}">{{ page[f.field] }}</a>
             {% else %}
             {{ page[f.field] | replace: '""','"' }}{% endif %}
         </dd>
