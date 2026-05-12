@@ -5,13 +5,19 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 accessibility: true
+# featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
+about-featured-image: petersenchristian63
+# set background-position for featured image, "center", "top", "bottom"
+position: center
+# major heading to display over featured image
+heading: About the Collection
+# paragraph text below heading in featured image
+sub-heading: 
+# additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
+padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-
-{% include feature/jumbotron.html objectid="petersenchristian63" %} 
-
-{% include feature/nav-menu.html sections="About the collection;About Christian Petersen;Related resources" %}
 
 ## About the collection
 
@@ -29,4 +35,4 @@ He was an honorary member of Delta Phi Delta (an art honorary), and Tau Sigma De
 
 ## Related resources
 
-Only a portion of the Christian Petersen collection housed in the Special Collections Department is represented in the digital collection. Refer to the [finding aid](https://n2t.net/ark:/87292/w94f82){:target="_blank"rel="noopener"} for the complete list of Petersen materials available.
+Only a portion of the Christian Petersen collection housed in the Special Collections Department is represented in the digital collection. Refer to the [finding aid](https://n2t.net/ark:/87292/w94f82) for the complete list of Petersen materials available.
