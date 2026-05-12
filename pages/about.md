@@ -5,13 +5,19 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 accessibility: true
+# featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
+about-featured-image: https://isuu00001library102stg.blob.core.windows.net/digital-objects/nfofilms/small/nfofilms59_sm.jpg
+# set background-position for featured image, "center", "top", "bottom"
+position: center
+# major heading to display over featured image
+heading: About the Collection
+# paragraph text below heading in featured image
+sub-heading: 
+# additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
+padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-
-{% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/nfofilms/small/nfofilms59_sm.jpg" %} 
-
-{% include feature/nav-menu.html sections="About the collection;Related resources" %}
 
 ## About the collection
 
@@ -21,4 +27,4 @@ These films were digitized and preserved in part by support from a Recordings at
 
 ## Related resources
 
-The finding aid for the [National Farmers Organization (NFO) records](https://n2t.net/ark:/87292/w9rf44){:target="_blank" rel="noopener"} contains information on the collection which these films are a part of. For more information on The National Farmers Organization (NFO), search the library catalog or contact Special Collections and University Archives.
+The finding aid for the [National Farmers Organization (NFO) records](https://n2t.net/ark:/87292/w9rf44) contains information on the collection which these films are a part of. For more information on The National Farmers Organization (NFO), search the library catalog or contact Special Collections and University Archives.
