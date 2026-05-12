@@ -33,7 +33,7 @@ title: Iowa State University Lecture Series
 tagline: A selection of recordings from the Iowa State Lectures Series
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "The Iowa State Lectures Series, a collaborative effort between the Student Government and the Office of the Provost, brings to campus a broad spectrum of talks, political debates, academic forums, and cultural events. The online collection consists of more than 1,000 audio recordings dating back to the 1970s. Note: University Library Digital Collections contains records for the full Lectures Series collection (https://n2t.net/ark:/87292/w91v5bm0b), and each record includes a link to the audio recording on the Iowa State University Aviary website. However, due to various access restrictions, the collection is split into three sets within the Aviary website. For information about these restrictions, see the Usage Rights note in each record."
+description: "The Iowa State Lectures Series, a collaborative effort between the Student Government and the Office of the Provost, brings to campus a broad spectrum of talks, political debates, academic forums, and cultural events. The online collection consists of more than 1,000 audio recordings dating back to the 1970s. Note: University Library Digital Collections contains records for the full Lectures Series collection <https://n2t.net/ark:/87292/w91v5bm0b>, and each record includes a link to the audio recording on the Iowa State University Aviary website. However, due to various access restrictions, the collection is split into three sets within the Aviary website. For information about these restrictions, see the Usage Rights note in each record."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: university events; african americans; economics; guest speakers
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
@@ -49,7 +49,7 @@ metadata: lectures
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
   - data: lectures
-  - data: 'lectures-iiif'
+  - data: 'lectures'
     template: 'manifest'
     template_override: true
     name: 'objectid'
@@ -81,7 +81,7 @@ organization-logo-nav: https://isuu00001library102stg.z21.web.core.windows.net/a
 # (this is done automatically by gh-pages build)
 #
 # ignore stuff
-exclude: [docs/, Rakefile, rakelib/, README.md, LICENSE, CODEOWNERS, utilities/, objects/]
+exclude: [docs/, Rakefile, rakelib/, README.md, LICENSE, CODEOWNERS, utilities/sitemap.xml, objects/, pages/search.md, pages/map.md]
 # compress CSS output
 sass:
   style: compressed
