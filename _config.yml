@@ -49,7 +49,7 @@ metadata: videos
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
   - data: videos
-  - data: 'videos-iiif'
+  - data: 'videos'
     template: 'manifest'
     template_override: true
     name: 'objectid'
@@ -81,7 +81,7 @@ organization-logo-nav: https://isuu00001library102stg.z21.web.core.windows.net/a
 # (this is done automatically by gh-pages build)
 #
 # ignore stuff
-exclude: [docs/, Rakefile, rakelib/, README.md, LICENSE, CODEOWNERS, utilities/, objects/]
+exclude: [docs/, Rakefile, rakelib/, README.md, LICENSE, CODEOWNERS, utilities/sitemap.xml, objects/, pages/search.md, pages/map.md, pages/locations.md]
 # compress CSS output
 sass:
   style: compressed
