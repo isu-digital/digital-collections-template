@@ -5,8 +5,8 @@
 # the gateway-baseurl and admin-email must be set here for the static repository to be valid
 # only generated during production environment build
 #####
-gateway-baseurl: http://gateway.institution.org/oai/
-admin-email: collectionbuilder.team@gmail.com
+gateway-baseurl: https://oai.digitalcollections.lib.iastate.edu/
+admin-email: digital@iastate.edu
 permalink: /oai.xml
 ---
 {%- if jekyll.environment == "production" -%}
