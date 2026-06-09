@@ -21,7 +21,7 @@ permalink: /oai.xml
                                 http://www.openarchives.org/OAI/2.0/static-repository.xsd">
     <Identify>
         <oai:repositoryName>{{ site.title | xml_escape }}</oai:repositoryName>
-        <oai:baseURL>{{ page.gateway-baseurl }}{{ page.url | absolute_url | remove: "https://" | remove: "http://" }}</oai:baseURL>
+        <oai:baseURL>{{ page.gateway-baseurl }}</oai:baseURL>
         <oai:protocolVersion>2.0</oai:protocolVersion>
         <oai:adminEmail>{{ page.admin-email }}</oai:adminEmail>
         <oai:earliestDatestamp>{{ site.time | date: "%Y-%m-%d" }}</oai:earliestDatestamp>
