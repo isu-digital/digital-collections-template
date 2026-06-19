@@ -56,7 +56,10 @@ $btn-active-border-tint-amount:   10% !default;
 }
 // divide
 @function divide($dividend, $divisor, $precision: 10) {
-    $sign: if(sass($dividend > 0 and $divisor > 0 or $dividend < 0 and $divisor < 0): 1; else: -1);
+    $sign: -1;
+    @if ($dividend > 0 and $divisor > 0) or ($dividend < 0 and $divisor < 0) {
+        $sign: 1;
+    }
     $dividend: abs($dividend);
     $divisor: abs($divisor);
     @if $dividend == 0 {
