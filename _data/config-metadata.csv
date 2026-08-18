@@ -1,6 +1,7 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 personal_creator,Creator (Person),true,,DCTERMS.creator,creator
+creator_characteristic, Creator Characteristic,true,,DCTERMS.description
 corporate_creator,Creator (Organization),true,,DCTERMS.creator,
 interviewee,Interviewee,true,,DCTERMS.contributor,
 interviewer,Interviewer,true,,DCTERMS.contributor,
