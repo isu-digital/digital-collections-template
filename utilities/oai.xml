@@ -5,12 +5,12 @@
 # the gateway-baseurl and admin-email must be set here for the static repository to be valid
 # only generated during production environment build
 #####
-gateway-baseurl: http://gateway.institution.org/oai/
-admin-email: collectionbuilder.team@gmail.com
+gateway-baseurl: https://oai.digitalcollections.lib.iastate.edu/
+admin-email: digital@iastate.edu
 permalink: /oai.xml
 ---
 {%- if jekyll.environment == "production" -%}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
 {%- assign fields = site.data.config-metadata | where_exp: 'field','field.dc_map' -%}
 {%- assign oai_dc_fields = "creator;subject;description;publisher;contributor;type;format;identifier;source;language;relation;coverage;rights" | split: ";" -%}
 <?xml version="1.0" encoding="UTF-8"?>
@@ -21,7 +21,7 @@ permalink: /oai.xml
                                 http://www.openarchives.org/OAI/2.0/static-repository.xsd">
     <Identify>
         <oai:repositoryName>{{ site.title | xml_escape }}</oai:repositoryName>
-        <oai:baseURL>{{ page.gateway-baseurl }}{{ page.url | absolute_url | remove: "https://" | remove: "http://" }}</oai:baseURL>
+        <oai:baseURL>{{ page.gateway-baseurl }}</oai:baseURL>
         <oai:protocolVersion>2.0</oai:protocolVersion>
         <oai:adminEmail>{{ page.admin-email }}</oai:adminEmail>
         <oai:earliestDatestamp>{{ site.time | date: "%Y-%m-%d" }}</oai:earliestDatestamp>
@@ -56,8 +56,8 @@ permalink: /oai.xml
                     {% elsif map == "created" or map == "date" %}<dc:date>{{ item[f.field] }}</dc:date>
                     {%- endif -%}
                     {%- endfor -%}
-                    <dc:identifier>{{ item.objectid }}</dc:identifier>
                     <dc:identifier>{{ '/items/' | absolute_url | append: item.objectid | append: '.html' }}</dc:identifier>
+                    {% if item.image_thumb %}<dc:identifier>{{ item.image_thumb }}</dc:identifier>{% endif %}
                 </oai_dc:dc>
             </oai:metadata>
         </oai:record>

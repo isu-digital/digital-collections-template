@@ -14,7 +14,9 @@
                 <dd>
                     <ul class="list-unstyled">
                         {% for rights_url in rightsstatements %}
-                        <li><a target="_blank" rel="noopener" href="{{ rights_url }}">{{ rights_url }}</a></li>
+                        {%- if rights_url != "" and rights_url != blank -%}
+                        <li><a href="{{ rights_url }}">{{ rights_url }}</a></li>
+                        {% endif %}
                         {% endfor %}
                     </ul>
                 </dd>  

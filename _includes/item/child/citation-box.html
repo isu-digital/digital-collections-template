@@ -1,13 +1,13 @@
 {% comment %}
 
-    Adds a basic citation box for child item with reference link to the child page.
+    Adds a basic citation box for child item with reference link to the child modal.
 
 {%- endcomment -%}
 <div class="card mb-2">
-    <div class="card-header">Source</div>
+    <div class="card-header">Attribution</div>
     <div class="card-body">
         <dl>
-            <dt>Preferred Citation:</dt>
+            <dt>Citation:</dt>
             <dd>"{{ child.title | default: page.title }}", {{ site.title }}, {{ site.organization-name }}</dd>
             {% if page.ark %}
             <dt>Reference Link:</dt>
