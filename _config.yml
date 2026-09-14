@@ -33,7 +33,7 @@ title: Latina/o/x life stories (USLS 377X) oral histories
 tagline: Interviews of Iowa community members conducted by Iowa State University students for the Latino/a Studies Program Oral History Project
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "The collected oral histories in this archive have been produced by students in the community engaged/outreach course, USLS/SPAN/ENG 3770: LATINA/O/X LIFE STORIES: Memoirs and Oral Histories. It is an active, growing collection as each iteration of the class will produce new oral histories, regularly added at the end of each semester."
+description: "The collected oral histories in this archive have been produced by students in the community engaged/outreach course, USLS/SPAN/ENG 3770: LATINA/O/X LIFE STORIES: Memoirs and Oral Histories. Inspired by the Voces of the Pandemic Oral History archive, based at University of Texas, Austin, (US Latino/a Studies Program ISU is a collaborative partner), students learn the meaning of oral histories, review selections from the Voces of the Pandemic collection, and produce their own oral histories, featuring Latinos/as/x from our extended Iowa communities. It is an active, growing collection as each iteration of the class will produce new oral histories, regularly added at the end of each semester."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: iowa state university students; mexican americans; student activities; greek letter societies; covid-19 pandemic; oral histories; midwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
@@ -48,8 +48,8 @@ metadata: usls
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 page_gen:
-  - data: atanasoff
-  - data: 'atanasoff'
+  - data: usls
+  - data: 'usls'
     template: 'manifest'
     template_override: true
     name: 'objectid'
