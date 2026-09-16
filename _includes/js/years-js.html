@@ -1,0 +1,11 @@
+<!-- load DataTables with jquery bundled -->
+<script type="text/javascript" language="javascript" src="{{ '/bootstrap5/datatables/datatables.min.js' | prepend: site.digital-assets }}"></script>
+<script>
+
+$(document).ready( function () {
+    $('#yearTable').DataTable( { 
+        "order": [[ 2, "asc" ]]
+    } );
+} );
+
+</script>
